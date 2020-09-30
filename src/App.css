@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -12,16 +12,40 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+html {
+  background-color: #282c34;
+}
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 25vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+h3 {
+  text-align: center;
+  color: white;
+}
+.projectsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  margin: 0 auto;
+  color: white;
+  padding: 1rem;
+}
+.projectsDiv {
+  margin: 0 auto;
+}
+.projects {
+  padding: 1rem;
+  width: 45%;
+  text-align: center;
 }
 
 .App-link {
@@ -35,4 +59,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.skills {
+  margin: 0 auto;
+  color: white;
+}
+.skills-div {
+  display: flex;
+}
+
+.qualifications {
+  margin: 0 auto;
+  text-align: center;
+}
+button {
+  border-radius: 2rem;
+  padding: 0.5rem;
+  background: white;
+}
+#prevWorkButton {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#buttonP {
+  padding: 0;
+  margin: 0 auto;
+}
+.contact {
+  margin-left: 40%;
+  padding: 1 rem;
+  color: white;
+}
+.display {
+  display: none;
 }
