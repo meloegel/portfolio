@@ -9,8 +9,8 @@ const Projects = () => {
             <div className='projectsContainer'>
                 <div className='projects'>
                     <p>Game of Life</p>
-                    <img src='/GameOfLifePortfolio.PNG' alt='Project 1' />
-                    <p>link:</p>
+                    <img src={require('../ProjectImages/GameOfLifePortfolio.PNG')} alt='Project 1' id='gameOfLifeImg' />
+                    <p>link: <a href='https://game-of-life-bice.vercel.app/' >game-of-life-bice.vercel.app</a></p>
                 </div>
                 <div className='projects'>
                     <p>Porfolio</p>

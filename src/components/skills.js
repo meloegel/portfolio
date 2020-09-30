@@ -10,30 +10,30 @@ const Skills = () => {
                 <div className="skills">
                     <ul>
                         <h4>Core Skills</h4>
-                        <li><i class="fab fa-html5"></i> HTML</li>
-                        <li><i class="fab fa-css3-alt"></i> CSS</li>
-                        <li><i class="fab fa-less"></i> LESS</li>
-                        <li><i class="fab fa-js-square"></i> Javascript</li>
-                        <li><i class="fab fa-python"></i> Python</li>
+                        <li><i className="fab fa-html5"></i> HTML</li>
+                        <li><i className="fab fa-css3-alt"></i> CSS</li>
+                        <li><i className="fab fa-less"></i> LESS</li>
+                        <li><i className="fab fa-js-square"></i> Javascript</li>
+                        <li><i className="fab fa-python"></i> Python</li>
                         <li>SQL</li>
                     </ul>
                 </div>
                 <div className="skills">
                     <ul>
                         <h4>Front-End</h4>
-                        <li><i class="fab fa-react"></i> ReactJS</li>
+                        <li><i className="fab fa-react"></i> ReactJS</li>
                         <li>Redux</li>
                         <li>Context</li>
-                        <li><i class="fab fa-react"></i> React Native</li>
+                        <li><i className="fab fa-react"></i> React Native</li>
                         <li>MaterialUI</li>
-                        <li><i class="fab fa-bootstrap"></i> Bootstrap & ReactStrap</li>
+                        <li><i className="fab fa-bootstrap"></i> Bootstrap & ReactStrap</li>
                         <li>Styled-Components</li>
                     </ul>
                 </div>
                 <div className="skills">
                     <ul>
                         <h4>Back-End</h4>
-                        <li><i class="fab fa-node-js"></i> NodeJS</li>
+                        <li><i className="fab fa-node-js"></i> NodeJS</li>
                         <li>Express</li>
                         <li>PostgreSQL</li>
                         <li>SQLite</li>
