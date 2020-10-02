@@ -13,9 +13,9 @@ const Projects = () => {
                     <p>link: <a href='https://game-of-life-bice.vercel.app/' >game-of-life-bice.vercel.app</a></p>
                 </div>
                 <div className='projects'>
-                    <p>Porfolio</p>
-                    <img src='' alt='Project 2' />
-                    <p>link:</p>
+                    <p>How-To (Backend)</p>
+                    <img src={require('../ProjectImages/HowToImage.PNG')} alt='Project 2' id='HowToImg' />
+                    <p>link: <a href='https://github.com/BW-how-2/Back-End' >github.com/BW-how-2/Back-End</a></p>
                 </div>
                 <div className='projects'>
                     <p>My Library</p>
