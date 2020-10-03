@@ -5,11 +5,14 @@ import React from 'react'
 const Header = () => {
     return (
         <div className="App">
-            <header className="App-header">
-                <img src={require('../Images/HeadShot.jpg')} alt='Mark Loegel' id='HeadShotImg' />
+            {/* <header className="App-header"> */}
+            {/* <img src={require('../Images/HeadShot.jpg')} alt='Mark Loegel' id='HeadShotImg' /> */}
+            <header>
                 <h1>Mark Loegel</h1>
-                <img src={require('../Images/HeaderPhoto.jpg')} alt='Coding' id='HeaderImg' />
+                <h3>Web Developer</h3>
             </header>
+            {/* <img src={require('../Images/HeaderPhoto.jpg')} alt='Coding' id='HeaderImg' />
+            </header> */}
         </div>
     )
 }
