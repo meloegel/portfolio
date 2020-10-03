@@ -3,7 +3,7 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <div >
+        <div className='hvr-grow' id='contactDiv' >
             <div className="contact">
                 <p>Email: Meloegel@gmail.com</p>
                 <p>LinkedIn: <a href='https://www.linkedin.com/in/mark-loegel-a43526b6/'>https://www.linkedin.com/in/mark-loegel-a43526b6/</a></p>

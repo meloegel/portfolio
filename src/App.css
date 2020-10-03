@@ -26,6 +26,8 @@ header {
   position: relative;
 }
 .App {
+  width: 85%;
+  margin: 0 auto;
   background-image: url("Images/HeaderPhoto.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -71,12 +73,26 @@ header {
   border-radius: 1.8rem;
   padding: 0.3rem;
   width: 85%;
+  text-align: left;
 }
 #centerSkills {
   width: 100%;
   text-align: center;
 }
 #centerAbout {
+  width: 100%;
+  text-align: center;
+}
+#centerProjects {
+  width: 100%;
+  text-align: center;
+}
+#contactDiv {
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+}
+#edu {
   width: 100%;
   text-align: center;
 }
@@ -113,6 +129,13 @@ h3 {
 }
 .projectsDiv {
   margin: 0 auto;
+  text-align: center;
+  position: relative;
+  margin-top: 2rem;
+  background-color: #555d6f;
+  border-radius: 1.8rem;
+  padding: 0.3rem;
+  width: 85%;
 }
 .projects {
   padding: 1rem;
@@ -148,6 +171,12 @@ h3 {
 .qualifications {
   margin: 0 auto;
   text-align: center;
+  position: relative;
+  margin-top: 2rem;
+  background-color: #555d6f;
+  border-radius: 1.8rem;
+  padding: 0.3rem;
+  width: 85%;
 }
 button {
   border-radius: 2rem;
@@ -164,9 +193,15 @@ button {
   margin: 0 auto;
 }
 .contact {
-  margin-left: 40%;
   padding: 1 rem;
   color: white;
+  position: relative;
+  margin: 0 auto;
+  background-color: #555d6f;
+  border-radius: 1.8rem;
+  padding: 0.3rem;
+  width: 85%;
+  text-align: center;
 }
 .display {
   display: none;
