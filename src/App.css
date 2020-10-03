@@ -20,9 +20,8 @@ html {
   background-color: #282c34;
   min-height: 25vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -67,6 +66,7 @@ h3 {
 }
 .skills-div {
   display: flex;
+  margin-bottom: 2rem;
 }
 
 .qualifications {
@@ -103,4 +103,31 @@ button {
 }
 a {
   color: white;
+}
+#HeadShotImg {
+  width: 20%;
+  border-radius: 2rem;
+  padding: 1rem;
+}
+#HeaderImg {
+  width: 25%;
+  border-radius: 2rem;
+  padding: 1rem;
+}
+.about {
+  width: 90%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+#prevWork h4 {
+  color: white;
+}
+#prevWork p {
+  color: white;
+  width: 90%;
+  margin: 0 auto;
+}
+#closeButton {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
 }
