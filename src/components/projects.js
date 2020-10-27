@@ -19,9 +19,9 @@ const Projects = () => {
                         <p>link: <a href='https://github.com/BW-how-2/Back-End' >github.com/BW-how-2/Back-End</a></p>
                     </div>
                     <div className='projects'>
-                        <p>My Library</p>
-                        <img src='' alt='Project 3' />
-                        <p>link:</p>
+                        <p>Cube Timer</p>
+                        <img src={require('../Images/CubeTimer.PNG')} alt='Project 3' id='CubeTimer' />
+                        <p>link: <a href='https://cube-timer.vercel.app/' >cube-timer.vercel.app/</a></p>
                     </div>
                     <div className='projects'>
                         <p>Project 4</p>
