@@ -208,13 +208,7 @@ button {
 .display {
   display: none;
 }
-#gameOfLifeImg {
-  width: 25vh;
-}
-#HowToImg {
-  width: 25vh;
-}
-#CubeTimer {
+.projectPic {
   width: 25vh;
 }
 a {
