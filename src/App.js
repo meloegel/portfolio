@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-
+import './styles/sass/index.scss';
 
 import Header from './components/header'
 import Projects from './components/projects'
