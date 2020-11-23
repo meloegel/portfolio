@@ -14,6 +14,7 @@ const Skills = () => {
                             <li><i className="fab fa-html5"></i> HTML</li>
                             <li><i className="fab fa-css3-alt"></i> CSS</li>
                             <li><i className="fab fa-less"></i> LESS</li>
+                            <li><i class="fab fa-sass"></i> SASS</li>
                             <li><i className="fab fa-js-square"></i> Javascript</li>
                             <li><i className="fab fa-python"></i> Python</li>
                             <li>SQL</li>
@@ -44,9 +45,10 @@ const Skills = () => {
                     <div className="skills">
                         <ul>
                             <h4>Testing</h4>
-                            <li>Cypress.io</li>
+                            <li>Cypress</li>
                             <li>Jest</li>
                             <li>Supertest</li>
+                            <li>React-Testing-Library</li>
                         </ul>
                     </div>
                 </div>
