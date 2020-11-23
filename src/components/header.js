@@ -4,7 +4,7 @@ import React from 'react'
 
 const Header = () => {
     return (
-        <div className="App">
+        <div className="header">
             {/* <header className="App-header"> */}
             {/* <img src={require('../Images/HeadShot.jpg')} alt='Mark Loegel' id='HeadShotImg' /> */}
             <header>
