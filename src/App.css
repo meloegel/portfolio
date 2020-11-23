@@ -1,49 +1,5 @@
-#centerProjects {
-  width: 100%;
-  text-align: center;
-}
-#contactDiv {
-  width: 100%;
-  margin-top: 2rem;
-  margin-bottom: 0.8rem;
-}
 #edu {
   width: 100%;
-  text-align: center;
-}
-
-.App-footer {
-  background-color: #282c34;
-  min-height: 25vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.projectsContainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 95%;
-  margin: 0 auto;
-  color: white;
-  padding: 1rem;
-}
-.projectsDiv {
-  margin: 0 auto;
-  text-align: center;
-  position: relative;
-  margin-top: 2rem;
-  background-color: #555d6f;
-  border-radius: 1.8rem;
-  padding: 0.3rem;
-  width: 85%;
-}
-.projects {
-  padding: 1rem;
-  width: 45%;
   text-align: center;
 }
 
@@ -55,62 +11,11 @@
   border-top: 2px dashed white;
 }
 
-.qualifications {
-  margin: 0 auto;
-  text-align: center;
-  position: relative;
-  margin: 4rem auto;
-
-  background-color: #555d6f;
-  border-radius: 1.8rem;
-  padding: 0.3rem;
-  width: 85%;
-}
-
-#prevWorkButton {
-  margin: 0 auto;
-  text-align: center;
-}
-
 #buttonP {
   padding: 0;
   margin: 0 auto;
 }
-.contact {
-  padding: 1 rem;
-  color: white;
-  position: relative;
-  margin: 0 auto;
-  background-color: #555d6f;
-  border-radius: 1.8rem;
-  padding: 0.3rem;
-  width: 85%;
-  text-align: center;
-}
 
-.projectPic {
-  width: 25vh;
-}
-
-#HeadShotImg {
-  width: 20%;
-  border-radius: 2rem;
-  padding: 1rem;
-}
-#HeaderImg {
-  width: 25%;
-  border-radius: 2rem;
-  padding: 1rem;
-}
-
-#prevWork h4 {
-  color: white;
-}
-#prevWork p {
-  color: white;
-  width: 90%;
-  margin: 0 auto;
-}
 #closeButton {
   margin-top: 1.5rem;
   margin-bottom: 1rem;

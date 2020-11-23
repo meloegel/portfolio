@@ -1,1 +1,33 @@
 // Projects Styles //
+
+#centerProjects {
+  width: 100%;
+  text-align: center;
+}
+.projectsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  margin: 0 auto;
+  color: white;
+  padding: 1rem;
+}
+.projectsDiv {
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  margin-top: 2rem;
+  background-color: #555d6f;
+  border-radius: 1.8rem;
+  padding: 0.3rem;
+  width: 85%;
+}
+.projects {
+  padding: 1rem;
+  width: 45%;
+  text-align: center;
+}
+.projectPic {
+  width: 25vh;
+}
