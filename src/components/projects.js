@@ -32,14 +32,16 @@ const Projects = () => {
                         <p>GitHub: <a href='https://github.com/meloegel/nasa-photo-of-the-day' >github.com/meloegel/nasa-photo-of-the-day</a></p>
                     </div>
                     <div className='projects'>
-                        <p>Project 5</p>
-                        <img src='' alt='Project 5' />
+                        <p>Run Tracker FE</p>
+                        <img src='' alt='Project 5' className='projectPic' />
                         <p>link:</p>
+                        <p>GitHub:<a href='https://github.com/meloegel/run-tracker-fe'>github.com/meloegel/run-tracker-fe</a></p>
                     </div>
                     <div className='projects'>
-                        <p>Project 6</p>
-                        <img src='' alt='Project 6' />
+                        <p>Run Tracker BE</p>
+                        <img src='' alt='Project 6' className='projectPic' />
                         <p>link:</p>
+                        <p>GitHub:<a href='https://github.com/meloegel/run-tracker-be'>github.com/meloegel/run-tracker-be</a></p>
                     </div>
                 </div>
             </div>
