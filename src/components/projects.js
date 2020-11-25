@@ -71,7 +71,7 @@ const Projects = () => {
                             </CardActions>
                             <Collapse in={expanded} timeout="auto" unmountOnExit>
                                 <CardContent>
-                                    <Typography>link: <a className='cardLink' href='https://game-of-life-bice.vercel.app/' >game-of-life-bice.vercel.app</a></Typography>
+                                    <Typography>Link: <a className='cardLink' href='https://game-of-life-bice.vercel.app/' >game-of-life-bice.vercel.app</a></Typography>
                                     <Typography>GitHub: <a className='cardLink' href='https://github.com/meloegel/Game_of_life' >github.com/meloegel/game_of_life</a></Typography>
                                 </CardContent>
                             </Collapse>
@@ -142,7 +142,7 @@ const Projects = () => {
                             </CardActions>
                             <Collapse in={expanded} timeout="auto" unmountOnExit>
                                 <CardContent>
-                                    <Typography>link: <a className='cardLink' href='https://cube-timer.vercel.app/'>cube-timer.vercel.app/</a></Typography>
+                                    <Typography>Link: <a className='cardLink' href='https://cube-timer.vercel.app/'>cube-timer.vercel.app/</a></Typography>
                                     <Typography>GitHub: <a className='cardLink' href='https://github.com/meloegel/Cube-Timer'>github.com/meloegel/Cube-Timer</a></Typography>
                                 </CardContent>
                             </Collapse>
@@ -184,7 +184,7 @@ const Projects = () => {
                             </Collapse>
                         </Card>
                     </div>
-                    <div>
+                    <div className='projectCard'>
                         <Card
                             style={{ maxWidth: '345px', minWidth: '300px' }}
                         >
@@ -215,15 +215,45 @@ const Projects = () => {
                             <Collapse in={expanded} timeout="auto" unmountOnExit>
                                 <CardContent>
                                     <Typography>Link: <a className='cardLink' href='https://run-tracker.vercel.app/'>run-tracker.vercel.app/</a></Typography>
-                                    <Typography>GitHub: GitHub: <a className='cardLink' href='https://github.com/meloegel/run-tracker-fe'>github.com/meloegel/run-tracker-fe</a></Typography>
+                                    <Typography>GitHub: <a className='cardLink' href='https://github.com/meloegel/run-tracker-fe'>github.com/meloegel/run-tracker-fe</a></Typography>
                                 </CardContent>
                             </Collapse>
                         </Card>
                     </div>
-                    <div className='projects'>
-                        <p>Run Tracker BE</p>
-                        <img src={require('../styles/Images/runTrackerBE.PNG')} alt='Project 6' className='projectPic' />
-                        <p>Link: <a href='https://github.com/meloegel/run-tracker-be'>github.com/meloegel/run-tracker-be</a></p>
+                    <div className='projectCard'>
+                        <Card
+                            style={{ maxWidth: '345px', minWidth: '300px' }}
+                        >
+                            <CardHeader
+                                title='Run Tracker BE'
+                                subheader='Nov 2020'
+                            />
+                            <CardMedia
+                                image={require('../styles/Images/runTrackerBE.PNG')}
+                                style={{ height: '0', paddingTop: '56.25%' }}
+                                title='Run Tracker BE'
+                            />
+                            <CardContent>
+                                <Typography variant="body2" color="textSecondary" component="p">
+                                    Description talking about creating Run Tracker BE.
+                                </Typography>
+                            </CardContent>
+                            <CardActions>
+                                <IconButton
+                                    className={clsx(classes.expand, {
+                                        [classes.expandOpen]: expanded,
+                                    })}
+                                    onClick={handleExpandClick}
+                                    aria-expanded={expanded}
+                                    aria-label="links"
+                                ><ExpandMoreIcon /></IconButton>
+                            </CardActions>
+                            <Collapse in={expanded} timeout="auto" unmountOnExit>
+                                <CardContent>
+                                    <Typography>GitHub: <a className='cardLink' href='https://github.com/meloegel/run-tracker-be'>github.com/meloegel/run-tracker-be</a></Typography>
+                                </CardContent>
+                            </Collapse>
+                        </Card>
                     </div>
                 </div>
             </div>
