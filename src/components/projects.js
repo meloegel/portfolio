@@ -41,7 +41,7 @@ const Projects = () => {
             <div className='projectsDiv'>
                 <h3>Projects</h3>
                 <div className='projectsContainer'>
-                    <div>
+                    <div className='projectCard'>
                         <Card
                             style={{ maxWidth: '345px', minWidth: '300px' }}
                         >
@@ -77,7 +77,7 @@ const Projects = () => {
                             </Collapse>
                         </Card>
                     </div>
-                    <div>
+                    <div className='projectCard'>
                         <Card
                             style={{ maxWidth: '345px', minWidth: '300px' }}
                         >
@@ -112,7 +112,7 @@ const Projects = () => {
                             </Collapse>
                         </Card>
                     </div>
-                    <div>
+                    <div className='projectCard'>
                         <Card
                             style={{ maxWidth: '345px', minWidth: '300px' }}
                         >
@@ -148,7 +148,7 @@ const Projects = () => {
                             </Collapse>
                         </Card>
                     </div>
-                    <div>
+                    <div className='projectCard'>
                         <Card
                             style={{ maxWidth: '345px', minWidth: '300px' }}
                         >
@@ -184,11 +184,41 @@ const Projects = () => {
                             </Collapse>
                         </Card>
                     </div>
-                    <div className='projects'>
-                        <p>Run Tracker FE</p>
-                        <img src={require('../styles/Images/runTrackerFE.PNG')} alt='Project 5' className='projectPic' />
-                        <p>link: <a href='https://run-tracker.vercel.app/'>run-tracker.vercel.app/</a></p>
-                        <p>GitHub: <a href='https://github.com/meloegel/run-tracker-fe'>github.com/meloegel/run-tracker-fe</a></p>
+                    <div>
+                        <Card
+                            style={{ maxWidth: '345px', minWidth: '300px' }}
+                        >
+                            <CardHeader
+                                title='Run Tracker FE'
+                                subheader='Nov 2020'
+                            />
+                            <CardMedia
+                                image={require('../styles/Images/runTrackerFE.PNG')}
+                                style={{ height: '0', paddingTop: '56.25%' }}
+                                title='Run Tracker FE'
+                            />
+                            <CardContent>
+                                <Typography variant="body2" color="textSecondary" component="p">
+                                    Description talking about creating Run Tracker FE.
+                                </Typography>
+                            </CardContent>
+                            <CardActions>
+                                <IconButton
+                                    className={clsx(classes.expand, {
+                                        [classes.expandOpen]: expanded,
+                                    })}
+                                    onClick={handleExpandClick}
+                                    aria-expanded={expanded}
+                                    aria-label="links"
+                                ><ExpandMoreIcon /></IconButton>
+                            </CardActions>
+                            <Collapse in={expanded} timeout="auto" unmountOnExit>
+                                <CardContent>
+                                    <Typography>Link: <a className='cardLink' href='https://run-tracker.vercel.app/'>run-tracker.vercel.app/</a></Typography>
+                                    <Typography>GitHub: GitHub: <a className='cardLink' href='https://github.com/meloegel/run-tracker-fe'>github.com/meloegel/run-tracker-fe</a></Typography>
+                                </CardContent>
+                            </Collapse>
+                        </Card>
                     </div>
                     <div className='projects'>
                         <p>Run Tracker BE</p>

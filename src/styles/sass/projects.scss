@@ -4,8 +4,13 @@
   width: 100%;
   text-align: center;
 }
+.projectCard {
+  display: flex;
+  padding: 1.5rem;
+}
 .projectsContainer {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   width: 95%;
