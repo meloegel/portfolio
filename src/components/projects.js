@@ -1,4 +1,6 @@
 import React from 'react'
+import clsx from 'clsx';
+import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
 import CardMedia from '@material-ui/core/CardMedia';
@@ -9,11 +11,32 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import CardActions from '@material-ui/core/CardActions';
 import Collapse from '@material-ui/core/Collapse';
 
+const useStyles = makeStyles((theme) => ({
+    root: {
+        maxWidth: 345,
+    },
+    media: {
+        height: 0,
+        paddingTop: '56.25%', // 16:9
+    },
+    expand: {
+        transform: 'rotate(0deg)',
+        marginLeft: 'auto',
+        transition: theme.transitions.create('transform', {
+            duration: theme.transitions.duration.shortest,
+        }),
+    },
+    expandOpen: {
+        transform: 'rotate(180deg)',
+    },
+}));
+
 const Projects = () => {
-    const [expand, setExpand] = React.useState(false);
+    const classes = useStyles();
+    const [expanded, setExpanded] = React.useState(false);
 
     const handleExpandClick = () => {
-        setExpand(!expand)
+        setExpanded(!expanded)
     }
 
     return (
@@ -30,8 +53,8 @@ const Projects = () => {
                                 subheader='July 2020'
                             />
                             <CardMedia
+                                className={classes.media}
                                 image={require('../styles/Images/GameOfLifePortfolio.PNG')}
-                                style={{ height: '0', paddingTop: '56.25%' }}
                                 title='Game of Life'
                             />
                             <CardContent>
@@ -41,12 +64,15 @@ const Projects = () => {
                             </CardContent>
                             <CardActions>
                                 <IconButton
+                                    className={clsx(classes.expand, {
+                                        [classes.expandOpen]: expanded,
+                                    })}
                                     onClick={handleExpandClick}
-                                    aria-expanded={expand}
+                                    aria-expanded={expanded}
                                     aria-label="links"
                                 ><ExpandMoreIcon /></IconButton>
                             </CardActions>
-                            <Collapse in={expand} timeout="auto" unmountOnExit>
+                            <Collapse in={expanded} timeout="auto" unmountOnExit>
                                 <CardContent>
                                     <Typography>link: <a className='cardLink' href='https://game-of-life-bice.vercel.app/' >game-of-life-bice.vercel.app</a></Typography>
                                     <Typography>GitHub: <a className='cardLink' href='https://github.com/meloegel/Game_of_life' >github.com/meloegel/game_of_life</a></Typography>
@@ -74,33 +100,92 @@ const Projects = () => {
                             </CardContent>
                             <CardActions>
                                 <IconButton
+                                    className={clsx(classes.expand, {
+                                        [classes.expandOpen]: expanded,
+                                    })}
                                     onClick={handleExpandClick}
-                                    aria-expanded={expand}
+                                    aria-expanded={expanded}
                                     aria-label="links"
                                 ><ExpandMoreIcon /></IconButton>
                             </CardActions>
-                            <Collapse in={expand} timeout="auto" unmountOnExit>
+                            <Collapse in={expanded} timeout="auto" unmountOnExit>
                                 <CardContent>
                                     <Typography>GitHub: <a className='cardLink' href=' https://github.com/BW-how-2/Back-End'>github.com/BW-how-2/Back-End</a></Typography>
                                 </CardContent>
                             </Collapse>
                         </Card>
                     </div>
-                    <div className='projects'>
-                        <p>How-To (Backend)</p>
-                        <img src={require('../styles/Images/HowToImage.PNG')} alt='Project 2' className='projectPic' />
+                    <div>
+                        <Card
+                            style={{ maxWidth: '345px', minWidth: '300px' }}
+                        >
+                            <CardHeader
+                                title='Cube Timer'
+                                subheader='Oct 2020'
+                            />
+                            <CardMedia
+                                image={require('../styles/Images/CubeTimer.PNG')}
+                                style={{ height: '0', paddingTop: '56.25%' }}
+                                title='Cube Timer'
+                            />
+                            <CardContent>
+                                <Typography variant="body2" color="textSecondary" component="p">
+                                    Description talking about creating Cube Timer.
+                                </Typography>
+                            </CardContent>
+                            <CardActions>
+                                <IconButton
+                                    className={clsx(classes.expand, {
+                                        [classes.expandOpen]: expanded,
+                                    })}
+                                    onClick={handleExpandClick}
+                                    aria-expanded={expanded}
+                                    aria-label="links"
+                                ><ExpandMoreIcon /></IconButton>
+                            </CardActions>
+                            <Collapse in={expanded} timeout="auto" unmountOnExit>
+                                <CardContent>
+                                    <Typography>link: <a className='cardLink' href='https://cube-timer.vercel.app/'>cube-timer.vercel.app/</a></Typography>
+                                    <Typography>GitHub: <a className='cardLink' href='https://github.com/meloegel/Cube-Timer'>github.com/meloegel/Cube-Timer</a></Typography>
+                                </CardContent>
+                            </Collapse>
+                        </Card>
                     </div>
-                    <div className='projects'>
-                        <p>Cube Timer</p>
-                        <img src={require('../styles/Images/CubeTimer.PNG')} alt='Project 3' className='projectPic' />
-                        <p>link: <a href='https://cube-timer.vercel.app/'>cube-timer.vercel.app/</a></p>
-                        <p>GitHub: <a href='https://github.com/meloegel/Cube-Timer'>github.com/meloegel/Cube-Timer</a></p>
-                    </div>
-                    <div className='projects'>
-                        <p>NASA Photo of the Day</p>
-                        <img src={require('../styles/Images/NasaPOTD.PNG')} alt='Project 4' className='projectPic' />
-                        <p>link: <a href='https://nasa-photo-of-the-day-mloegel.vercel.app/'>nasa-photo-of-the-day-mloegel.vercel.app/</a></p>
-                        <p>GitHub: <a href='https://github.com/meloegel/nasa-photo-of-the-day'>github.com/meloegel/nasa-photo-of-the-day</a></p>
+                    <div>
+                        <Card
+                            style={{ maxWidth: '345px', minWidth: '300px' }}
+                        >
+                            <CardHeader
+                                title='NASA Photo of the Day'
+                                subheader='Oct 2020'
+                            />
+                            <CardMedia
+                                image={require('../styles/Images/NasaPOTD.PNG')}
+                                style={{ height: '0', paddingTop: '56.25%' }}
+                                title='Cube Timer'
+                            />
+                            <CardContent>
+                                <Typography variant="body2" color="textSecondary" component="p">
+                                    Description talking about creating NASA POTD.
+                                </Typography>
+                            </CardContent>
+                            <CardActions>
+                                <IconButton
+                                    className={clsx(classes.expand, {
+                                        [classes.expandOpen]: expanded,
+                                    })}
+                                    onClick={handleExpandClick}
+                                    aria-expanded={expanded}
+                                    aria-label="links"
+                                ><ExpandMoreIcon /></IconButton>
+                            </CardActions>
+                            <Collapse in={expanded} timeout="auto" unmountOnExit>
+                                <CardContent>
+                                    <Typography>Link: <a className='cardLink' href='https://nasa-photo-of-the-day-mloegel.vercel.app/'>nasa-photo-of-the-day-mloegel.vercel.app/</a></Typography>
+                                    <Typography>GitHub: <a className='cardLink' href='https://github.com/meloegel/nasa-photo-of-the-day'>github.com/meloegel/nasa-photo-of-the-day</a></Typography>
+                                </CardContent>
+                            </Collapse>
+                        </Card>
                     </div>
                     <div className='projects'>
                         <p>Run Tracker FE</p>
