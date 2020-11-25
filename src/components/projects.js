@@ -1,19 +1,63 @@
 import React from 'react'
-
-
+import Card from '@material-ui/core/Card';
+import CardHeader from '@material-ui/core/CardHeader';
+import CardMedia from '@material-ui/core/CardMedia';
+import CardContent from '@material-ui/core/CardContent';
+import Typography from '@material-ui/core/Typography';
+import IconButton from '@material-ui/core/IconButton';
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import CardActions from '@material-ui/core/CardActions';
+import Collapse from '@material-ui/core/Collapse';
 
 const Projects = () => {
+    const [expand, setExpand] = React.useState(false);
+
+    const handleExpandClick = () => {
+        setExpand(!expand)
+    }
+
     return (
         <div className='hvr-grow' id='centerProjects'>
             <div className='projectsDiv'>
                 <h3>Projects</h3>
                 <div className='projectsContainer'>
-                    <div className='projects'>
+                    <div>
+                        <Card>
+                            <CardHeader
+                                title='Game of Life'
+                                subheader='July 2020'
+                            />
+                            <CardMedia
+                                image={require('../styles/Images/GameOfLifePortfolio.PNG')}
+                                style={{ height: '4rem' }}
+                                title='Game of Life'
+                            />
+                            <CardContent>
+                                <Typography variant="body2" color="textSecondary" component="p">
+                                    Description talking about creating Game of Life.
+                                </Typography>
+                            </CardContent>
+                            <CardActions>
+                                <IconButton
+                                    onClick={handleExpandClick}
+                                    aria-expanded={expand}
+                                    aria-label="links"
+                                ><ExpandMoreIcon /></IconButton>
+                            </CardActions>
+                            <Collapse in={expand} timeout="auto" unmountOnExit>
+                                <CardContent>
+                                    <Typography>link: <a className='cardLink' href='https://game-of-life-bice.vercel.app/' >game-of-life-bice.vercel.app</a></Typography>
+                                    <Typography>GitHub: <a className='cardLink' href='https://github.com/meloegel/Game_of_life' >github.com/meloegel/game_of_life</a></Typography>
+                                </CardContent>
+                            </Collapse>
+                        </Card>
+                    </div>
+                    {/* <div className='projects'>
                         <p>Game of Life</p>
                         <img src={require('../styles/Images/GameOfLifePortfolio.PNG')} alt='Project 1' className='projectPic' />
                         <p>link: <a href='https://game-of-life-bice.vercel.app/' >game-of-life-bice.vercel.app</a></p>
                         <p>GitHub: <a href='https://github.com/meloegel/Game_of_life' >github.com/meloegel/game_of_life</a></p>
-                    </div>
+                    </div> */}
                     <div className='projects'>
                         <p>How-To (Backend)</p>
                         <img src={require('../styles/Images/HowToImage.PNG')} alt='Project 2' className='projectPic' />
@@ -44,7 +88,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 
