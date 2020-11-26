@@ -10,6 +10,7 @@ import IconButton from '@material-ui/core/IconButton';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import CardActions from '@material-ui/core/CardActions';
 import Collapse from '@material-ui/core/Collapse';
+import Tooltip from '@material-ui/core/Tooltip';
 
 const useStyles = makeStyles((theme) => ({
     media: {
@@ -30,18 +31,31 @@ const useStyles = makeStyles((theme) => ({
 
 const Projects = () => {
     const classes = useStyles();
-    const [expanded, setExpanded] = useState(false);
     const [oneExpand, setOneExpand] = useState(false);
     const [twoExpand, setTwoExpand] = useState(false);
+    const [threeExpand, setThreeExpand] = useState(false);
+    const [fourExpand, setFourExpand] = useState(false);
+    const [fiveExpand, setFiveExpand] = useState(false);
+    const [sixExpand, setSixExpand] = useState(false);
 
-    const handleExpandClick = () => {
-        setExpanded(!expanded)
-    }
+
     const handleTwoExpand = () => {
         setTwoExpand(!twoExpand)
     }
     const handleOneExpand = () => {
         setOneExpand(!oneExpand)
+    }
+    const handleThreeExpand = () => {
+        setThreeExpand(!threeExpand)
+    }
+    const handleFourExpand = () => {
+        setFourExpand(!fourExpand)
+    }
+    const handleFiveExpand = () => {
+        setFiveExpand(!fiveExpand)
+    }
+    const handleSixExpand = () => {
+        setSixExpand(!sixExpand)
     }
 
     return (
@@ -51,11 +65,11 @@ const Projects = () => {
                 <div className='projectsContainer'>
                     <div className='projectCard'>
                         <Card
-                            style={{ maxWidth: '345px', minWidth: '300px' }}
+                            style={{ width: '345px', minHeight: '520px' }}
                         >
                             <CardHeader
                                 title='Game of Life'
-                                subheader='July 2020'
+                                subheader='Aug 2020'
                             />
                             <CardMedia
                                 className={classes.media}
@@ -64,18 +78,23 @@ const Projects = () => {
                             />
                             <CardContent>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    Description talking about creating Game of Life.
+                                    Created this project for the final sprint of unit 6 at Lambda school. Built over about a week period, with some improvments made after completeing Lambda. Had built a version of Game of Life in Python before starting at Lambda, this time building the project in React was a great way to hone my JS skills.
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <IconButton
-                                    className={clsx(classes.expand, {
-                                        [classes.expandOpen]: oneExpand,
-                                    })}
-                                    onClick={handleOneExpand}
-                                    aria-expanded={oneExpand}
-                                    aria-label="links"
-                                ><ExpandMoreIcon /></IconButton>
+                                <Tooltip
+                                    placement='left'
+                                    title='Links'
+                                >
+                                    <IconButton
+                                        className={clsx(classes.expand, {
+                                            [classes.expandOpen]: oneExpand,
+                                        })}
+                                        onClick={handleOneExpand}
+                                        aria-expanded={oneExpand}
+                                        aria-label="links"
+                                    ><ExpandMoreIcon /></IconButton>
+                                </Tooltip>
                             </CardActions>
                             <Collapse in={oneExpand} timeout="auto" unmountOnExit>
                                 <CardContent>
@@ -87,7 +106,7 @@ const Projects = () => {
                     </div>
                     <div className='projectCard'>
                         <Card
-                            style={{ maxWidth: '345px', minWidth: '300px' }}
+                            style={{ width: '345px', minHeight: '520px' }}
                         >
                             <CardHeader
                                 title='How-To BE'
@@ -100,18 +119,23 @@ const Projects = () => {
                             />
                             <CardContent>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    Description talking about creating How-To BE.
+                                    Worked on this project with many different cohorts in a group of 6. I was responsible for and created the entire back-end of the project. This project was my favorite project I worked on while at Lambda. I loved learning how to write an eloborate and well documented Readme.
                                 </Typography>
                             </CardContent>
-                            <CardActions>
-                                <IconButton
-                                    className={clsx(classes.expand, {
-                                        [classes.expandOpen]: twoExpand,
-                                    })}
-                                    onClick={handleTwoExpand}
-                                    aria-expanded={twoExpand}
-                                    aria-label="links"
-                                ><ExpandMoreIcon /></IconButton>
+                            <CardActions disableSpacing>
+                                <Tooltip
+                                    placement='left'
+                                    title='Links'
+                                >
+                                    <IconButton
+                                        className={clsx(classes.expand, {
+                                            [classes.expandOpen]: twoExpand,
+                                        })}
+                                        onClick={handleTwoExpand}
+                                        aria-expanded={twoExpand}
+                                        aria-label="links"
+                                    ><ExpandMoreIcon /></IconButton>
+                                </Tooltip>
                             </CardActions>
                             <Collapse in={twoExpand} timeout="auto" unmountOnExit>
                                 <CardContent>
@@ -122,7 +146,7 @@ const Projects = () => {
                     </div>
                     <div className='projectCard'>
                         <Card
-                            style={{ maxWidth: '345px', minWidth: '300px' }}
+                            style={{ width: '345px', minHeight: '520px' }}
                         >
                             <CardHeader
                                 title='Cube Timer'
@@ -135,20 +159,25 @@ const Projects = () => {
                             />
                             <CardContent>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    Description talking about creating Cube Timer.
+                                    Cube Timer is an aid for timing the solving of rubik's cubes. I created CubeTimer not only because I love solving Rubix cubes but also because I love programming. This was one of the first projects I created after graduating Lambda, the project was made over a couple days in Oct 2020.
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <IconButton
-                                    className={clsx(classes.expand, {
-                                        [classes.expandOpen]: expanded,
-                                    })}
-                                    onClick={handleExpandClick}
-                                    aria-expanded={expanded}
-                                    aria-label="links"
-                                ><ExpandMoreIcon /></IconButton>
+                                <Tooltip
+                                    placement='left'
+                                    title='Links'
+                                >
+                                    <IconButton
+                                        className={clsx(classes.expand, {
+                                            [classes.expandOpen]: threeExpand,
+                                        })}
+                                        onClick={handleThreeExpand}
+                                        aria-expanded={threeExpand}
+                                        aria-label="links"
+                                    ><ExpandMoreIcon /></IconButton>
+                                </Tooltip>
                             </CardActions>
-                            <Collapse in={expanded} timeout="auto" unmountOnExit>
+                            <Collapse in={threeExpand} timeout="auto" unmountOnExit>
                                 <CardContent>
                                     <Typography>Link: <a className='cardLink' href='https://cube-timer.vercel.app/'>cube-timer.vercel.app/</a></Typography>
                                     <Typography>GitHub: <a className='cardLink' href='https://github.com/meloegel/Cube-Timer'>github.com/meloegel/Cube-Timer</a></Typography>
@@ -158,7 +187,7 @@ const Projects = () => {
                     </div>
                     <div className='projectCard'>
                         <Card
-                            style={{ maxWidth: '345px', minWidth: '300px' }}
+                            style={{ width: '345px', minHeight: '520px' }}
                         >
                             <CardHeader
                                 title='NASA Photo of the Day'
@@ -171,20 +200,25 @@ const Projects = () => {
                             />
                             <CardContent>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    Description talking about creating NASA POTD.
+                                    Nasa Photo of the day was created unsing the Nasa public daily photo api. Each day Nasa will have a different photo or video to display. This project was the first react project I created from scratch in Unit 3 at Lambda school, it was a memoriable project so after graduating Lambda I went back and updated this project.
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <IconButton
-                                    className={clsx(classes.expand, {
-                                        [classes.expandOpen]: expanded,
-                                    })}
-                                    onClick={handleExpandClick}
-                                    aria-expanded={expanded}
-                                    aria-label="links"
-                                ><ExpandMoreIcon /></IconButton>
+                                <Tooltip
+                                    placement='left'
+                                    title='Links'
+                                >
+                                    <IconButton
+                                        className={clsx(classes.expand, {
+                                            [classes.expandOpen]: fourExpand,
+                                        })}
+                                        onClick={handleFourExpand}
+                                        aria-expanded={fourExpand}
+                                        aria-label="links"
+                                    ><ExpandMoreIcon /></IconButton>
+                                </Tooltip>
                             </CardActions>
-                            <Collapse in={expanded} timeout="auto" unmountOnExit>
+                            <Collapse in={fourExpand} timeout="auto" unmountOnExit>
                                 <CardContent>
                                     <Typography>Link: <a className='cardLink' href='https://nasa-photo-of-the-day-mloegel.vercel.app/'>nasa-photo-of-the-day-mloegel.vercel.app/</a></Typography>
                                     <Typography>GitHub: <a className='cardLink' href='https://github.com/meloegel/nasa-photo-of-the-day'>github.com/meloegel/nasa-photo-of-the-day</a></Typography>
@@ -194,7 +228,7 @@ const Projects = () => {
                     </div>
                     <div className='projectCard'>
                         <Card
-                            style={{ maxWidth: '345px', minWidth: '300px' }}
+                            style={{ width: '345px', minHeight: '520px' }}
                         >
                             <CardHeader
                                 title='Run Tracker FE'
@@ -207,20 +241,25 @@ const Projects = () => {
                             />
                             <CardContent>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    Description talking about creating Run Tracker FE.
+                                    I created Run Tracker because I have a passion for running as well as programming. Run Tracker keeps track of your run times and are able to post good runs to a main feed. Creating an account allows the user to view their runs, edit and delete runs and edit their profile.
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <IconButton
-                                    className={clsx(classes.expand, {
-                                        [classes.expandOpen]: expanded,
-                                    })}
-                                    onClick={handleExpandClick}
-                                    aria-expanded={expanded}
-                                    aria-label="links"
-                                ><ExpandMoreIcon /></IconButton>
+                                <Tooltip
+                                    placement='left'
+                                    title='Links'
+                                >
+                                    <IconButton
+                                        className={clsx(classes.expand, {
+                                            [classes.expandOpen]: fiveExpand,
+                                        })}
+                                        onClick={handleFiveExpand}
+                                        aria-expanded={fiveExpand}
+                                        aria-label="links"
+                                    ><ExpandMoreIcon /></IconButton>
+                                </Tooltip>
                             </CardActions>
-                            <Collapse in={expanded} timeout="auto" unmountOnExit>
+                            <Collapse in={fiveExpand} timeout="auto" unmountOnExit>
                                 <CardContent>
                                     <Typography>Link: <a className='cardLink' href='https://run-tracker.vercel.app/'>run-tracker.vercel.app/</a></Typography>
                                     <Typography>GitHub: <a className='cardLink' href='https://github.com/meloegel/run-tracker-fe'>github.com/meloegel/run-tracker-fe</a></Typography>
@@ -230,7 +269,7 @@ const Projects = () => {
                     </div>
                     <div className='projectCard'>
                         <Card
-                            style={{ maxWidth: '345px', minWidth: '300px' }}
+                            style={{ width: '345px', minHeight: '520px' }}
                         >
                             <CardHeader
                                 title='Run Tracker BE'
@@ -243,20 +282,25 @@ const Projects = () => {
                             />
                             <CardContent>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    Description talking about creating Run Tracker BE.
+                                    I created Run Tracker because I have a passion for running as well as programming. Run Tracker keeps track of your run times and are able to post good runs to a main feed. Creating an account allows the user to view their runs, edit and delete runs and edit their profile.
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <IconButton
-                                    className={clsx(classes.expand, {
-                                        [classes.expandOpen]: expanded,
-                                    })}
-                                    onClick={handleExpandClick}
-                                    aria-expanded={expanded}
-                                    aria-label="links"
-                                ><ExpandMoreIcon /></IconButton>
+                                <Tooltip
+                                    placement='left'
+                                    title='Links'
+                                >
+                                    <IconButton
+                                        className={clsx(classes.expand, {
+                                            [classes.expandOpen]: sixExpand,
+                                        })}
+                                        onClick={handleSixExpand}
+                                        aria-expanded={sixExpand}
+                                        aria-label="links"
+                                    ><ExpandMoreIcon /></IconButton>
+                                </Tooltip>
                             </CardActions>
-                            <Collapse in={expanded} timeout="auto" unmountOnExit>
+                            <Collapse in={sixExpand} timeout="auto" unmountOnExit>
                                 <CardContent>
                                     <Typography>GitHub: <a className='cardLink' href='https://github.com/meloegel/run-tracker-be'>github.com/meloegel/run-tracker-be</a></Typography>
                                 </CardContent>
