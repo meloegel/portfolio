@@ -65,7 +65,8 @@ const Projects = () => {
                 <div className='projectsContainer'>
                     <div className='projectCard'>
                         <Card
-                            style={{ width: '345px', minHeight: '520px' }}
+                            style={{ width: '385px', minHeight: '575px', backgroundColor: '#a6acba' }}
+                            raised
                         >
                             <CardHeader
                                 title='Game of Life'
@@ -73,11 +74,12 @@ const Projects = () => {
                             />
                             <CardMedia
                                 className={classes.media}
+                                style={{ height: '0', paddingTop: '56.25%', border: '1px solid black' }}
                                 image={require('../styles/Images/GameOfLifePortfolio.PNG')}
                                 title='Game of Life'
                             />
                             <CardContent>
-                                <Typography variant="body2" color="textSecondary" component="p">
+                                <Typography variant="body1" color="textPrimary">
                                     Created this project for the final sprint of unit 6 at Lambda school. Built over about a week period, with some improvments made after completeing Lambda. Had built a version of Game of Life in Python before starting at Lambda, this time building the project in React was a great way to hone my JS skills.
                                 </Typography>
                             </CardContent>
@@ -106,7 +108,8 @@ const Projects = () => {
                     </div>
                     <div className='projectCard'>
                         <Card
-                            style={{ width: '345px', minHeight: '520px' }}
+                            style={{ width: '385px', minHeight: '575px', backgroundColor: '#a6acba' }}
+                            raised
                         >
                             <CardHeader
                                 title='How-To BE'
@@ -114,11 +117,11 @@ const Projects = () => {
                             />
                             <CardMedia
                                 image={require('../styles/Images/HowToImage.PNG')}
-                                style={{ height: '0', paddingTop: '56.25%' }}
+                                style={{ height: '0', paddingTop: '56.25%', border: '1px solid black' }}
                                 title='How-To BE'
                             />
                             <CardContent>
-                                <Typography variant="body2" color="textSecondary" component="p">
+                                <Typography variant="body1" color="textPrimary">
                                     Worked on this project with many different cohorts in a group of 6. I was responsible for and created the entire back-end of the project. This project was my favorite project I worked on while at Lambda. I loved learning how to write an eloborate and well documented Readme.
                                 </Typography>
                             </CardContent>
@@ -146,7 +149,8 @@ const Projects = () => {
                     </div>
                     <div className='projectCard'>
                         <Card
-                            style={{ width: '345px', minHeight: '520px' }}
+                            style={{ width: '385px', minHeight: '575px', backgroundColor: '#a6acba' }}
+                            raised
                         >
                             <CardHeader
                                 title='Cube Timer'
@@ -154,11 +158,11 @@ const Projects = () => {
                             />
                             <CardMedia
                                 image={require('../styles/Images/CubeTimer.PNG')}
-                                style={{ height: '0', paddingTop: '56.25%' }}
+                                style={{ height: '0', paddingTop: '56.25%', border: '1px solid black' }}
                                 title='Cube Timer'
                             />
                             <CardContent>
-                                <Typography variant="body2" color="textSecondary" component="p">
+                                <Typography variant="body1" color="textPrimary">
                                     Cube Timer is an aid for timing the solving of rubik's cubes. I created CubeTimer not only because I love solving Rubix cubes but also because I love programming. This was one of the first projects I created after graduating Lambda, the project was made over a couple days in Oct 2020.
                                 </Typography>
                             </CardContent>
@@ -187,7 +191,8 @@ const Projects = () => {
                     </div>
                     <div className='projectCard'>
                         <Card
-                            style={{ width: '345px', minHeight: '520px' }}
+                            style={{ width: '385px', minHeight: '575px', backgroundColor: '#a6acba' }}
+                            raised
                         >
                             <CardHeader
                                 title='NASA Photo of the Day'
@@ -195,11 +200,11 @@ const Projects = () => {
                             />
                             <CardMedia
                                 image={require('../styles/Images/NasaPOTD.PNG')}
-                                style={{ height: '0', paddingTop: '56.25%' }}
+                                style={{ height: '0', paddingTop: '56.25%', border: '1px solid black' }}
                                 title='Cube Timer'
                             />
                             <CardContent>
-                                <Typography variant="body2" color="textSecondary" component="p">
+                                <Typography variant="body1" color="textPrimary">
                                     Nasa Photo of the day was created unsing the Nasa public daily photo api. Each day Nasa will have a different photo or video to display. This project was the first react project I created from scratch in Unit 3 at Lambda school, it was a memoriable project so after graduating Lambda I went back and updated this project.
                                 </Typography>
                             </CardContent>
@@ -228,7 +233,8 @@ const Projects = () => {
                     </div>
                     <div className='projectCard'>
                         <Card
-                            style={{ width: '345px', minHeight: '520px' }}
+                            style={{ width: '385px', minHeight: '575px', backgroundColor: '#a6acba' }}
+                            raised
                         >
                             <CardHeader
                                 title='Run Tracker FE'
@@ -236,11 +242,11 @@ const Projects = () => {
                             />
                             <CardMedia
                                 image={require('../styles/Images/runTrackerFE.PNG')}
-                                style={{ height: '0', paddingTop: '56.25%' }}
+                                style={{ height: '0', paddingTop: '56.25%', border: '1px solid black' }}
                                 title='Run Tracker FE'
                             />
                             <CardContent>
-                                <Typography variant="body2" color="textSecondary" component="p">
+                                <Typography variant="body1" color="textPrimary">
                                     I created Run Tracker because I have a passion for running as well as programming. Run Tracker keeps track of your run times and are able to post good runs to a main feed. Creating an account allows the user to view their runs, edit and delete runs and edit their profile.
                                 </Typography>
                             </CardContent>
@@ -269,7 +275,8 @@ const Projects = () => {
                     </div>
                     <div className='projectCard'>
                         <Card
-                            style={{ width: '345px', minHeight: '520px' }}
+                            style={{ width: '385px', minHeight: '575px', backgroundColor: '#a6acba' }}
+                            raised
                         >
                             <CardHeader
                                 title='Run Tracker BE'
@@ -277,11 +284,11 @@ const Projects = () => {
                             />
                             <CardMedia
                                 image={require('../styles/Images/runTrackerBE.PNG')}
-                                style={{ height: '0', paddingTop: '56.25%' }}
+                                style={{ height: '0', paddingTop: '56.25%', border: '1px solid black' }}
                                 title='Run Tracker BE'
                             />
                             <CardContent>
-                                <Typography variant="body2" color="textSecondary" component="p">
+                                <Typography variant="body1" color="textPrimary">
                                     I created Run Tracker because I have a passion for running as well as programming. Run Tracker keeps track of your run times and are able to post good runs to a main feed. Creating an account allows the user to view their runs, edit and delete runs and edit their profile.
                                 </Typography>
                             </CardContent>
