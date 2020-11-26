@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import clsx from 'clsx';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
@@ -30,10 +30,18 @@ const useStyles = makeStyles((theme) => ({
 
 const Projects = () => {
     const classes = useStyles();
-    const [expanded, setExpanded] = React.useState(false);
+    const [expanded, setExpanded] = useState(false);
+    const [oneExpand, setOneExpand] = useState(false);
+    const [twoExpand, setTwoExpand] = useState(false);
 
     const handleExpandClick = () => {
         setExpanded(!expanded)
+    }
+    const handleTwoExpand = () => {
+        setTwoExpand(!twoExpand)
+    }
+    const handleOneExpand = () => {
+        setOneExpand(!oneExpand)
     }
 
     return (
@@ -62,14 +70,14 @@ const Projects = () => {
                             <CardActions>
                                 <IconButton
                                     className={clsx(classes.expand, {
-                                        [classes.expandOpen]: expanded,
+                                        [classes.expandOpen]: oneExpand,
                                     })}
-                                    onClick={handleExpandClick}
-                                    aria-expanded={expanded}
+                                    onClick={handleOneExpand}
+                                    aria-expanded={oneExpand}
                                     aria-label="links"
                                 ><ExpandMoreIcon /></IconButton>
                             </CardActions>
-                            <Collapse in={expanded} timeout="auto" unmountOnExit>
+                            <Collapse in={oneExpand} timeout="auto" unmountOnExit>
                                 <CardContent>
                                     <Typography>Link: <a className='cardLink' href='https://game-of-life-bice.vercel.app/' >game-of-life-bice.vercel.app</a></Typography>
                                     <Typography>GitHub: <a className='cardLink' href='https://github.com/meloegel/Game_of_life' >github.com/meloegel/game_of_life</a></Typography>
@@ -98,14 +106,14 @@ const Projects = () => {
                             <CardActions>
                                 <IconButton
                                     className={clsx(classes.expand, {
-                                        [classes.expandOpen]: expanded,
+                                        [classes.expandOpen]: twoExpand,
                                     })}
-                                    onClick={handleExpandClick}
-                                    aria-expanded={expanded}
+                                    onClick={handleTwoExpand}
+                                    aria-expanded={twoExpand}
                                     aria-label="links"
                                 ><ExpandMoreIcon /></IconButton>
                             </CardActions>
-                            <Collapse in={expanded} timeout="auto" unmountOnExit>
+                            <Collapse in={twoExpand} timeout="auto" unmountOnExit>
                                 <CardContent>
                                     <Typography>GitHub: <a className='cardLink' href=' https://github.com/BW-how-2/Back-End'>github.com/BW-how-2/Back-End</a></Typography>
                                 </CardContent>
