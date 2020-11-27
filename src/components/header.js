@@ -10,6 +10,9 @@ const Header = () => {
             <header>
                 <h1>Mark Loegel</h1>
                 <h3>Web Developer</h3>
+                <a href='need tp upload resume and navigate to it' download>
+                    <button>Download Resume</button>
+                </a>
             </header>
             {/* <img src={require('../Images/HeaderPhoto.jpg')} alt='Coding' id='HeaderImg' />
             </header> */}

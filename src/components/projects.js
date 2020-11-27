@@ -322,3 +322,9 @@ const Projects = () => {
 }
 
 export default Projects;
+
+
+// To ADD? 
+
+// Bridges to pros
+// Ultramikro
