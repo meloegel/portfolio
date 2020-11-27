@@ -21,6 +21,7 @@ const Qualifications = (key) => {
         <div className='hvr-grow' id='edu'>
             <div className="qualifications">
                 <h3>Education: Lambda School</h3>
+                <h3>Previous Education: Oakland University (Psychology)</h3>
                 <button onClick={History}>Previous Work Experience <p id='buttonP'>(non-programming)</p></button>
                 <PrevWork />
                 <button onClick={History} id='closeButton' className='display'>Close</button>
