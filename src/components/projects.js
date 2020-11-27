@@ -101,8 +101,8 @@ const Projects = () => {
                             </CardActions>
                             <Collapse in={oneExpand} timeout="auto" unmountOnExit>
                                 <CardContent>
-                                    <Typography>Link: <a className='cardLink' href='https://game-of-life-bice.vercel.app/' >game-of-life-bice.vercel.app</a></Typography>
-                                    <Typography>GitHub: <a className='cardLink' href='https://github.com/meloegel/Game_of_life' >github.com/meloegel/game_of_life</a></Typography>
+                                    <Typography variant="body1" style={{ color: 'white' }}>Link: <a className='cardLink' href='https://game-of-life-bice.vercel.app/' >game-of-life-bice.vercel.app</a></Typography>
+                                    <Typography variant="body1" style={{ color: 'white' }}>GitHub: <a className='cardLink' href='https://github.com/meloegel/Game_of_life' >github.com/meloegel/game_of_life</a></Typography>
                                 </CardContent>
                             </Collapse>
                         </Card>
@@ -143,7 +143,7 @@ const Projects = () => {
                             </CardActions>
                             <Collapse in={twoExpand} timeout="auto" unmountOnExit>
                                 <CardContent>
-                                    <Typography>GitHub: <a className='cardLink' href=' https://github.com/BW-how-2/Back-End'>github.com/BW-how-2/Back-End</a></Typography>
+                                    <Typography variant="body1" style={{ color: 'white' }}>GitHub: <a className='cardLink' href=' https://github.com/BW-how-2/Back-End'>github.com/BW-how-2/Back-End</a></Typography>
                                 </CardContent>
                             </Collapse>
                         </Card>
@@ -184,8 +184,8 @@ const Projects = () => {
                             </CardActions>
                             <Collapse in={threeExpand} timeout="auto" unmountOnExit>
                                 <CardContent>
-                                    <Typography>Link: <a className='cardLink' href='https://cube-timer.vercel.app/'>cube-timer.vercel.app/</a></Typography>
-                                    <Typography>GitHub: <a className='cardLink' href='https://github.com/meloegel/Cube-Timer'>github.com/meloegel/Cube-Timer</a></Typography>
+                                    <Typography variant="body1" style={{ color: 'white' }}>Link: <a className='cardLink' href='https://cube-timer.vercel.app/'>cube-timer.vercel.app/</a></Typography>
+                                    <Typography variant="body1" style={{ color: 'white' }}>GitHub: <a className='cardLink' href='https://github.com/meloegel/Cube-Timer'>github.com/meloegel/Cube-Timer</a></Typography>
                                 </CardContent>
                             </Collapse>
                         </Card>
@@ -226,8 +226,8 @@ const Projects = () => {
                             </CardActions>
                             <Collapse in={fourExpand} timeout="auto" unmountOnExit>
                                 <CardContent>
-                                    <Typography>Link: <a className='cardLink' href='https://nasa-photo-of-the-day-mloegel.vercel.app/'>nasa-photo-of-the-day-mloegel.vercel.app/</a></Typography>
-                                    <Typography>GitHub: <a className='cardLink' href='https://github.com/meloegel/nasa-photo-of-the-day'>github.com/meloegel/nasa-photo-of-the-day</a></Typography>
+                                    <Typography variant="body1" style={{ color: 'white' }}>Link: <a className='cardLink' href='https://nasa-photo-of-the-day-mloegel.vercel.app/'>nasa-photo-of-the-day-mloegel.vercel.app/</a></Typography>
+                                    <Typography variant="body1" style={{ color: 'white' }}>GitHub: <a className='cardLink' href='https://github.com/meloegel/nasa-photo-of-the-day'>github.com/meloegel/nasa-photo-of-the-day</a></Typography>
                                 </CardContent>
                             </Collapse>
                         </Card>
@@ -268,8 +268,8 @@ const Projects = () => {
                             </CardActions>
                             <Collapse in={fiveExpand} timeout="auto" unmountOnExit>
                                 <CardContent>
-                                    <Typography>Link: <a className='cardLink' href='https://run-tracker.vercel.app/'>run-tracker.vercel.app/</a></Typography>
-                                    <Typography>GitHub: <a className='cardLink' href='https://github.com/meloegel/run-tracker-fe'>github.com/meloegel/run-tracker-fe</a></Typography>
+                                    <Typography variant="body1" style={{ color: 'white' }}>Link: <a className='cardLink' href='https://run-tracker.vercel.app/'>run-tracker.vercel.app/</a></Typography>
+                                    <Typography variant="body1" style={{ color: 'white' }}>GitHub: <a className='cardLink' href='https://github.com/meloegel/run-tracker-fe'>github.com/meloegel/run-tracker-fe</a></Typography>
                                 </CardContent>
                             </Collapse>
                         </Card>
@@ -310,7 +310,7 @@ const Projects = () => {
                             </CardActions>
                             <Collapse in={sixExpand} timeout="auto" unmountOnExit>
                                 <CardContent>
-                                    <Typography>GitHub: <a className='cardLink' href='https://github.com/meloegel/run-tracker-be'>github.com/meloegel/run-tracker-be</a></Typography>
+                                    <Typography variant="body1" style={{ color: 'white' }}>GitHub: <a className='cardLink' href='https://github.com/meloegel/run-tracker-be'>github.com/meloegel/run-tracker-be</a></Typography>
                                 </CardContent>
                             </Collapse>
                         </Card>
