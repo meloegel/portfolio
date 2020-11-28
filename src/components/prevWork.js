@@ -29,9 +29,9 @@ const PrevWork = () => {
                 <div className='jobs'>
                     <h4>Manager On Duty</h4>
                     <h4>Goldfish Swim School Macomb 2014-2015</h4>
-                    <p>Instrumental in successfully opening the Macomb Goldfish franchise location.  Trained in Deck Management and Front Desk Operations. Learned the pool pump operations, water quality, and problem solving pump room operations.
+                    <p>Instrumental in successfully opening the Macomb Goldfish franchise location. Trained in Deck Management and Front Desk Operations. Learned the pool pump operations, water quality, and problem solving pump room operations.
                     Excellent communication with students, ability to explain the foundation of swimming simply and effectively receiving feedback from students and parents consistently rating teaching as “highly effective and valuable”.
-                 Cold call sales for acquiring new students.</p>
+                 Cold call sales for acquiring new students. Oversaw 25-40 staff members and would train and evaluate them monthly.</p>
                 </div>
             </div>
         </div>
