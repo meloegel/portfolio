@@ -81,7 +81,7 @@ const Projects = () => {
                             />
                             <CardContent>
                                 <Typography variant="body1" style={{ color: 'white' }}>
-                                    Created this project for the final sprint of unit 6 at Lambda school. Built over about a week period, with some improvments made after completeing Lambda. Had built a version of Game of Life in Python before starting at Lambda, this time building the project in React was a great way to hone my JS skills.
+                                    Created this project for the final sprint of unit 6 at Lambda school. Built over about a week period, with some improvements made after completeing Lambda. Had built a version of Game of Life in Python before starting at Lambda, this time building the project in React was a great way to hone my JS skills.
                                 </Typography>
                             </CardContent>
                             <CardActions>
@@ -164,7 +164,7 @@ const Projects = () => {
                             />
                             <CardContent>
                                 <Typography variant="body1" style={{ color: 'white' }}>
-                                    Cube Timer is an aid for timing the solving of rubik's cubes. I created CubeTimer not only because I love solving Rubix cubes but also because I love programming. This was one of the first projects I created after graduating Lambda, the project was made over a couple days in Oct 2020.
+                                    Cube Timer is an aid for timing the solving of Rubik's cubes. I created CubeTimer not only because I love solving Rubix cubes but also because I love programming. This was one of the first projects I created after graduating Lambda, the project was made over a couple days in Oct 2020.
                                 </Typography>
                             </CardContent>
                             <CardActions>
@@ -206,7 +206,7 @@ const Projects = () => {
                             />
                             <CardContent>
                                 <Typography variant="body1" style={{ color: 'white' }}>
-                                    Nasa Photo of the day was created unsing the Nasa public daily photo api. Each day Nasa will have a different photo or video to display. This project was the first react project I created from scratch in Unit 3 at Lambda school, it was a memoriable project so after graduating Lambda I went back and updated this project.
+                                    NASA Photo of the Day was created using the Nasa public daily photo API. Each day Nasa will have a different photo or video to display. This project was the first react project I created from scratch in Unit 3 at Lambda school, it was a memorable project so after graduating Lambda I went back and updated this project.
                                 </Typography>
                             </CardContent>
                             <CardActions>
