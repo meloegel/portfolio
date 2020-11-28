@@ -9,7 +9,7 @@ const Contact = () => {
                 <p>LinkedIn: <a href='https://www.linkedin.com/in/mark-loegel/'>https://www.linkedin.com/in/mark-loegel/</a></p>
                 <p>Github: <a href='https://github.com/meloegel'>https://github.com/meloegel</a></p>
                 <p>Sourcerer.io: <a href='https://sourcerer.io/meloegel'>https://sourcerer.io/meloegel</a></p>
-                <p>Location: Madison Heights, Mi</p>
+                <p>Location: Madison Heights, MI</p>
             </div>
         </div>
     )
