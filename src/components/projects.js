@@ -64,9 +64,10 @@ const Projects = () => {
             <div className='projectsDiv'>
                 <h3>Projects</h3>
                 <div className='projectsContainer'>
-                    <div className='projectCard'>
+                    <div className='projectCardSection'>
                         <Card
-                            style={{ width: '385px', minHeight: '575px', backgroundColor: '#a6acba' }}
+                            className='projectCard'
+                            style={{ backgroundColor: '#a6acba' }}
                             raised
                         >
                             <CardHeader
@@ -107,9 +108,10 @@ const Projects = () => {
                             </Collapse>
                         </Card>
                     </div>
-                    <div className='projectCard'>
+                    <div className='projectCardSection'>
                         <Card
-                            style={{ width: '385px', minHeight: '575px', backgroundColor: '#a6acba' }}
+                            style={{ backgroundColor: '#a6acba' }}
+                            className='projectCard'
                             raised
                         >
                             <CardHeader
@@ -148,9 +150,10 @@ const Projects = () => {
                             </Collapse>
                         </Card>
                     </div>
-                    <div className='projectCard'>
+                    <div className='projectCardSection'>
                         <Card
-                            style={{ width: '385px', minHeight: '575px', backgroundColor: '#a6acba' }}
+                            style={{ backgroundColor: '#a6acba' }}
+                            className='projectCard'
                             raised
                         >
                             <CardHeader
@@ -190,9 +193,10 @@ const Projects = () => {
                             </Collapse>
                         </Card>
                     </div>
-                    <div className='projectCard'>
+                    <div className='projectCardSection'>
                         <Card
-                            style={{ width: '385px', minHeight: '575px', backgroundColor: '#a6acba' }}
+                            style={{ backgroundColor: '#a6acba' }}
+                            className='projectCard'
                             raised
                         >
                             <CardHeader
@@ -232,9 +236,10 @@ const Projects = () => {
                             </Collapse>
                         </Card>
                     </div>
-                    <div className='projectCard'>
+                    <div className='projectCardSection'>
                         <Card
-                            style={{ width: '385px', minHeight: '575px', backgroundColor: '#a6acba' }}
+                            style={{ backgroundColor: '#a6acba' }}
+                            className='projectCard'
                             raised
                         >
                             <CardHeader
@@ -274,9 +279,10 @@ const Projects = () => {
                             </Collapse>
                         </Card>
                     </div>
-                    <div className='projectCard'>
+                    <div className='projectCardSection'>
                         <Card
-                            style={{ width: '385px', minHeight: '575px', backgroundColor: '#a6acba' }}
+                            style={{ backgroundColor: '#a6acba' }}
+                            className='projectCard'
                             raised
                         >
                             <CardHeader

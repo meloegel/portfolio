@@ -4,7 +4,7 @@
   width: 100%;
   text-align: center;
 }
-.projectCard {
+.projectCardSection {
   display: flex;
   padding: 1.5rem;
 }
@@ -38,4 +38,9 @@
 }
 .cardLink {
   color: white;
+}
+.projectCard {
+  width: 385px;
+  min-height: 575px;
+  background-color: #a6acba;
 }
