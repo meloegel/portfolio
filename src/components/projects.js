@@ -17,6 +17,7 @@ const useStyles = makeStyles((theme) => ({
     media: {
         height: 0,
         paddingTop: '56.25%',
+        border: '1px solid black',
     },
     expand: {
         transform: 'rotate(0deg)',
@@ -76,7 +77,6 @@ const Projects = () => {
                             />
                             <CardMedia
                                 className={classes.media}
-                                style={{ height: '0', paddingTop: '56.25%', border: '1px solid black' }}
                                 image={require('../styles/Images/GameOfLifePortfolio.PNG')}
                                 title='Game of Life'
                             />
@@ -119,8 +119,8 @@ const Projects = () => {
                                 subheader='June 2020'
                             />
                             <CardMedia
+                                className={classes.media}
                                 image={require('../styles/Images/HowToImage.PNG')}
-                                style={{ height: '0', paddingTop: '56.25%', border: '1px solid black' }}
                                 title='How-To BE'
                             />
                             <CardContent>
@@ -161,8 +161,8 @@ const Projects = () => {
                                 subheader='Oct 2020'
                             />
                             <CardMedia
+                                className={classes.media}
                                 image={require('../styles/Images/CubeTimer.PNG')}
-                                style={{ height: '0', paddingTop: '56.25%', border: '1px solid black' }}
                                 title='Cube Timer'
                             />
                             <CardContent>
@@ -204,8 +204,8 @@ const Projects = () => {
                                 subheader='Oct 2020'
                             />
                             <CardMedia
+                                className={classes.media}
                                 image={require('../styles/Images/NasaPOTD.PNG')}
-                                style={{ height: '0', paddingTop: '56.25%', border: '1px solid black' }}
                                 title='Cube Timer'
                             />
                             <CardContent>
@@ -247,8 +247,8 @@ const Projects = () => {
                                 subheader='Nov 2020'
                             />
                             <CardMedia
+                                className={classes.media}
                                 image={require('../styles/Images/runTrackerFE.PNG')}
-                                style={{ height: '0', paddingTop: '56.25%', border: '1px solid black' }}
                                 title='Run Tracker FE'
                             />
                             <CardContent>
@@ -290,8 +290,8 @@ const Projects = () => {
                                 subheader='Nov 2020'
                             />
                             <CardMedia
+                                className={classes.media}
                                 image={require('../styles/Images/runTrackerBE.PNG')}
-                                style={{ height: '0', paddingTop: '56.25%', border: '1px solid black' }}
                                 title='Run Tracker BE'
                             />
                             <CardContent>
