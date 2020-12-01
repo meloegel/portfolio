@@ -28,7 +28,9 @@ const Qualifications = (key) => {
                         <p>Part of the Lambda X Endorsement program</p>
                     </div>
                     <div>
-                        <img id='lambdaBadge' src={require('../styles/Images/lambda-badge-full-stack-web.png')} alt='Lambda Badge' />
+                        <a href='https://www.youracclaim.com/badges/50d30b03-c8f6-4054-ab84-062437c1598a/linked_in' target='_blank' rel="noopener noreferrer">
+                            <img id='lambdaBadge' src={require('../styles/Images/lambda-badge-full-stack-web.png')} alt='Lambda Badge' />
+                        </a>
                     </div>
                     <div>
                         <h3>Previous Education: Oakland University</h3>
