@@ -10,7 +10,7 @@ const Header = () => {
             <header>
                 <h1>Mark Loegel</h1>
                 <h3>Web Developer</h3>
-                <a style={{ textDecoration: 'none' }} href='need tp upload resume and navigate to it' download>
+                <a style={{ textDecoration: 'none' }} href={require('../styles/Images/Mark Resume (12-1-20).pdf')} download>
                     <Button variant='contained'>Download Resume</Button>
                 </a>
             </header>
