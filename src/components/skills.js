@@ -26,8 +26,10 @@ const Skills = () => {
                             <li><i className="fab fa-react"></i> ReactJS</li>
                             <li>Redux</li>
                             <li>Context</li>
-                            <li><i className="fab fa-react"></i> React Native</li>
-                            <li>MaterialUI</li>
+                            <li>Ant Design</li>
+                            <li>Semantic UI</li>
+                            <li>Material UI</li>
+                            <li><i class="fas fa-map-marked-alt"></i> Mapbox</li>
                             <li><i className="fab fa-bootstrap"></i> Bootstrap & ReactStrap</li>
                             <li>Styled-Components</li>
                         </ul>
@@ -37,6 +39,7 @@ const Skills = () => {
                             <h4>Back-End</h4>
                             <li><i className="fab fa-node-js"></i> NodeJS</li>
                             <li>Express</li>
+                            <li>Nodemon</li>
                             <li>PostgreSQL</li>
                             <li>SQLite</li>
                             <li>GraphQL</li>
