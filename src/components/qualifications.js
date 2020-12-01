@@ -28,6 +28,9 @@ const Qualifications = (key) => {
                         <p>Part of the Lambda X Endorsement program</p>
                     </div>
                     <div>
+                        <img id='lambdaBadge' src={require('../styles/Images/lambda-badge-full-stack-web.png')} alt='Lambda Badge' />
+                    </div>
+                    <div>
                         <h3>Previous Education: Oakland University</h3>
                         <p>Bachlors Degree in Psychology</p>
                         <p>2008-2012</p>
