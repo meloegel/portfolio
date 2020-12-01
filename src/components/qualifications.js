@@ -33,6 +33,9 @@ const Qualifications = (key) => {
                         </a>
                     </div>
                     <div>
+                        <img id='ouLogo' src={require('../styles/Images/OU.png')} alt='Oakland Univeristy Logo' />
+                    </div>
+                    <div>
                         <h3>Previous Education: Oakland University</h3>
                         <p>Studied Psychology with Focus in Child Development</p>
                         <p>2008-2012</p>
