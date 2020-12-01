@@ -34,7 +34,7 @@ const Qualifications = (key) => {
                     </div>
                     <div>
                         <h3>Previous Education: Oakland University</h3>
-                        <p>Bachlors Degree in Psychology</p>
+                        <p>Studied Psychology with Focus in Child Development</p>
                         <p>2008-2012</p>
                         <p>Division 1 Athelete in Swimming</p>
                         <p>4 year Conference Champions</p>
