@@ -75,11 +75,13 @@ const Projects = () => {
                                 title='Game of Life'
                                 subheader='Aug 2020'
                             />
-                            <CardMedia
-                                className={classes.media}
-                                image={require('../styles/Images/GameOfLifePortfolio.PNG')}
-                                title='Game of Life'
-                            />
+                            <a href='https://game-of-life-bice.vercel.app/' >
+                                <CardMedia
+                                    className={classes.media}
+                                    image={require('../styles/Images/GameOfLifePortfolio.PNG')}
+                                    title='Game of Life'
+                                />
+                            </a>
                             <CardContent>
                                 <Typography variant="body1" style={{ color: 'white' }}>
                                     Created this project for the final sprint of unit 6 at Lambda school. Built over about a week period, with some improvements made after completeing Lambda. Had built a version of Game of Life in Python before starting at Lambda, this time building the project in React was a great way to hone my JS skills.
@@ -118,11 +120,13 @@ const Projects = () => {
                                 title='How-To BE'
                                 subheader='June 2020'
                             />
-                            <CardMedia
-                                className={classes.media}
-                                image={require('../styles/Images/HowToImage.PNG')}
-                                title='How-To BE'
-                            />
+                            <a href=' https://github.com/BW-how-2/Back-End'>
+                                <CardMedia
+                                    className={classes.media}
+                                    image={require('../styles/Images/HowToImage.PNG')}
+                                    title='How-To BE'
+                                />
+                            </a>
                             <CardContent>
                                 <Typography variant="body1" style={{ color: 'white' }}>
                                     Worked on this project with many different cohorts in a group of 6. I was responsible for and created the entire back-end of the project. This project was my favorite project I worked on while at Lambda. I loved learning how to write an elaborate and well documented Readme.
