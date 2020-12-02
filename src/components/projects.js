@@ -210,7 +210,7 @@ const Projects = () => {
                             />
                             <CardContent>
                                 <Typography variant="body1" style={{ color: 'white' }}>
-                                    NASA Photo of the Day was created using the Nasa public daily photo API. Each day Nasa will have a different photo or video to display. This project was the first react project I created from scratch in Unit 3 at Lambda school, it was a memorable project so after graduating Lambda I went back and updated this project.
+                                    NASA Photo of the Day was created using the NASA public daily photo API. Each day NASA will have a different photo or video to display. This project was the first react project I created from scratch in Unit 3 at Lambda school, it was a memorable project so after graduating Lambda I went back and updated this project.
                                 </Typography>
                             </CardContent>
                             <CardActions>
