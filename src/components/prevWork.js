@@ -15,7 +15,7 @@ const PrevWork = () => {
                 <div className='jobs'>
                     <h4>Building Manager</h4>
                     <h4>Collaborative Advantage Marketing - Detroit MI 2017-2019</h4>
-                    <p>From 2017-2019, I was the building manager at CAM. In the building we had an event space, residential lofts, gallery, loading dock and offices. In the offices there were multiple companies running a food distribution business, event business, loft business, etc. My job was to oversee 5-10 dock worker employees that would perform maintenance around the building as well as assist the food company with tasks like packing, shipping, receiving product and construction. I would also assist any companies in the building that needed help by: help set up and run events for the event space, shopping for supplies, and assist residents with any issues, IT problems, deliveries/pick-ups, security, etc.</p>
+                    <p>From 2017-2019, mananged event space with residential lofts, gallery, loading dock and offices. The office space consisted of multiple companies running a food distribution business, event business, loft business, etc. My job was to oversee 5-10 dock worker employees that would perform maintenance around the building as well as assist the food company with tasks like packing, shipping, receiving product and construction. I would also assist any companies in the building that needed help by: help set up and run events for the event space, shopping for supplies, and assist residents with any issues, IT problems, deliveries/pick-ups, security, etc.</p>
                 </div>
                 <div className='jobs'>
                     <h4>Operations Consultant</h4>
