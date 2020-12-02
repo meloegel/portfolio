@@ -125,7 +125,7 @@ const Projects = () => {
                             />
                             <CardContent>
                                 <Typography variant="body1" style={{ color: 'white' }}>
-                                    Worked on this project with many different cohorts in a group of 6. I was responsible for and created the entire back-end of the project. This project was my favorite project I worked on while at Lambda. I loved learning how to write an eloborate and well documented Readme.
+                                    Worked on this project with many different cohorts in a group of 6. I was responsible for and created the entire back-end of the project. This project was my favorite project I worked on while at Lambda. I loved learning how to write an elaborate and well documented Readme.
                                 </Typography>
                             </CardContent>
                             <CardActions disableSpacing>

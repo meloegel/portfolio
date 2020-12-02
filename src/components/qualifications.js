@@ -39,7 +39,7 @@ const Qualifications = (key) => {
                         <h3>Previous Education: Oakland University</h3>
                         <p>Studied Psychology with Focus in Child Development</p>
                         <p>2008-2012</p>
-                        <p>Division 1 Athelete in Swimming</p>
+                        <p>Division 1 Athlete in Swimming</p>
                         <p>4 year Conference Champions</p>
                     </div>
                 </div>
