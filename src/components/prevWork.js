@@ -24,7 +24,7 @@ const PrevWork = () => {
                     Key contact for new franchise locations with proactive communications with new owners, staff, managers, and help build better client relations.
                     Successfully oversaw and trained the staff for 10 new franchises.
                     Lead pool pump room contact providing technical assistance for issues or questions for a critical component of any franchise location.
-                 Authored knowledge base documents of known problems providing resolution paths solving client issues.</p>
+                 Authored knowledge base documents of known problems providing resolution paths solving client issues. Created the Pump Room Training kit for the franchise.</p>
                 </div>
                 <div className='jobs'>
                     <h4>Manager On Duty</h4>
