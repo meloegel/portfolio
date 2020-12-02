@@ -164,11 +164,13 @@ const Projects = () => {
                                 title='Cube Timer'
                                 subheader='Oct 2020'
                             />
-                            <CardMedia
-                                className={classes.media}
-                                image={require('../styles/Images/CubeTimer.PNG')}
-                                title='Cube Timer'
-                            />
+                            <a href='https://cube-timer.vercel.app/'>
+                                <CardMedia
+                                    className={classes.media}
+                                    image={require('../styles/Images/CubeTimer.PNG')}
+                                    title='Cube Timer'
+                                />
+                            </a>
                             <CardContent>
                                 <Typography variant="body1" style={{ color: 'white' }}>
                                     Cube Timer is an aid for timing the solving of Rubik's cubes. I created CubeTimer not only because I love solving Rubix cubes but also because I love programming. This was one of the first projects I created after graduating Lambda, the project was made over a couple days in Oct 2020.
@@ -207,11 +209,13 @@ const Projects = () => {
                                 title='NASA Photo of the Day'
                                 subheader='Oct 2020'
                             />
-                            <CardMedia
-                                className={classes.media}
-                                image={require('../styles/Images/NasaPOTD.PNG')}
-                                title='Cube Timer'
-                            />
+                            <a href='https://nasa-photo-of-the-day-mloegel.vercel.app/'>
+                                <CardMedia
+                                    className={classes.media}
+                                    image={require('../styles/Images/NasaPOTD.PNG')}
+                                    title='Cube Timer'
+                                />
+                            </a>
                             <CardContent>
                                 <Typography variant="body1" style={{ color: 'white' }}>
                                     NASA Photo of the Day was created using the NASA public daily photo API. Each day NASA will have a different photo or video to display. This project was the first react project I created from scratch in Unit 3 at Lambda school, it was a memorable project so after graduating Lambda I went back and updated this project.
