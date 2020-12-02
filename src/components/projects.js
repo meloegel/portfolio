@@ -254,11 +254,13 @@ const Projects = () => {
                                 title='Run Tracker FE'
                                 subheader='Nov 2020'
                             />
-                            <CardMedia
-                                className={classes.media}
-                                image={require('../styles/Images/runTrackerFE.PNG')}
-                                title='Run Tracker FE'
-                            />
+                            <a href='https://run-tracker.vercel.app/'>
+                                <CardMedia
+                                    className={classes.media}
+                                    image={require('../styles/Images/runTrackerFE.PNG')}
+                                    title='Run Tracker FE'
+                                />
+                            </a>
                             <CardContent>
                                 <Typography variant="body1" style={{ color: 'white' }}>
                                     I created Run Tracker because I have a passion for running as well as programming. Run Tracker keeps track of your run times and are able to post good runs to a main feed. Creating an account allows the user to view their runs, edit and delete runs and edit their profile.
@@ -297,11 +299,13 @@ const Projects = () => {
                                 title='Run Tracker BE'
                                 subheader='Nov 2020'
                             />
-                            <CardMedia
-                                className={classes.media}
-                                image={require('../styles/Images/runTrackerBE.PNG')}
-                                title='Run Tracker BE'
-                            />
+                            <a href='https://github.com/meloegel/run-tracker-be'>
+                                <CardMedia
+                                    className={classes.media}
+                                    image={require('../styles/Images/runTrackerBE.PNG')}
+                                    title='Run Tracker BE'
+                                />
+                            </a>
                             <CardContent>
                                 <Typography variant="body1" style={{ color: 'white' }}>
                                     I created Run Tracker because I have a passion for running as well as programming. Run Tracker keeps track of your run times and are able to post good runs to a main feed. Creating an account allows the user to view their runs, edit and delete runs and edit their profile.
