@@ -31,4 +31,12 @@
 // Media Queries //
 
 @media screen and (max-width: 376px) {
+  .header {
+    height: auto;
+    padding: 1rem;
+  }
+  .MuiBreadcrumbs-ol {
+    display: flex;
+    justify-content: center;
+  }
 }
