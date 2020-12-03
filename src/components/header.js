@@ -17,7 +17,7 @@ const Header = () => {
                     <a href="#contactDiv" style={{ textDecoration: 'none' }} ><Typography color="white"> Contact <i class="fas fa-id-card"></i></Typography></a>
                 </Breadcrumbs>
                 <h1>Mark Loegel</h1>
-                <h3>Web Developer</h3>
+                <h2>Web Developer</h2>
                 <a style={{ textDecoration: 'none' }} href={require('../styles/Images/Mark Resume (12-1-20).pdf')} download>
                     <Button variant='contained'>Download Resume</Button>
                 </a>

@@ -1,4 +1,5 @@
-// Global Styles //@at-root
+// Global Styles //
+
 html {
   background-color: white;
 
@@ -8,6 +9,7 @@ body {
   background-color: #282c34;
   border-radius: 2rem;
   padding: 1rem;
+  font-family: "Roboto", sans-serif;
 }
 header {
   position: relative;
@@ -15,6 +17,19 @@ header {
 h3 {
   text-align: center;
   color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 350;
+}
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 800;
+  font-size: 4rem;
+  height: 10vh;
+}
+h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
 }
 button {
   border-radius: 2rem;

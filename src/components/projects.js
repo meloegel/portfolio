@@ -72,6 +72,7 @@ const Projects = () => {
                             raised
                         >
                             <CardHeader
+                                style={{ color: 'white', textShadow: '.5px .5px black' }}
                                 title='Game of Life'
                                 subheader='Aug 2020'
                             />
@@ -117,6 +118,7 @@ const Projects = () => {
                             raised
                         >
                             <CardHeader
+                                style={{ color: 'white', textShadow: '.5px .5px black' }}
                                 title='How-To BE'
                                 subheader='June 2020'
                             />
@@ -161,6 +163,7 @@ const Projects = () => {
                             raised
                         >
                             <CardHeader
+                                style={{ color: 'white', textShadow: '.5px .5px black' }}
                                 title='Cube Timer'
                                 subheader='Oct 2020'
                             />
@@ -206,6 +209,7 @@ const Projects = () => {
                             raised
                         >
                             <CardHeader
+                                style={{ color: 'white', textShadow: '.5px .5px black' }}
                                 title='NASA Photo of the Day'
                                 subheader='Oct 2020'
                             />
@@ -251,6 +255,7 @@ const Projects = () => {
                             raised
                         >
                             <CardHeader
+                                style={{ color: 'white', textShadow: '.5px .5px black' }}
                                 title='Run Tracker FE'
                                 subheader='Nov 2020'
                             />
@@ -296,6 +301,7 @@ const Projects = () => {
                             raised
                         >
                             <CardHeader
+                                style={{ color: 'white', textShadow: '.5px .5px black' }}
                                 title='Run Tracker BE'
                                 subheader='Nov 2020'
                             />
