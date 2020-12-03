@@ -11,7 +11,7 @@ const Footer = () => {
                 <p>Powered By React</p>
             </header>
             <div id='bottomNav'>
-                <Breadcrumbs aria-label="breadcrumb" color="white">
+                <Breadcrumbs aria-label="breadcrumb" style={{ color: "white" }}>
                     <a href="aboutDiv" ><Typography color="white">About</Typography></a>
                     <a href="skillsDiv" ><Typography color="white">Skills</Typography></a>
                     <a href="edu" ><Typography color="white">Education</Typography></a>
