@@ -41,3 +41,14 @@
   min-height: 585px;
   background-color: #a6acba;
 }
+
+// Media Queries //
+
+@media screen and (max-width: 376px) {
+}
+
+@media screen and (min-width: 2000px) {
+  .projectCard {
+    width: 300px;
+  }
+}

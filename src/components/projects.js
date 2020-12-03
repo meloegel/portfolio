@@ -84,7 +84,7 @@ const Projects = () => {
                                 />
                             </a>
                             <CardContent>
-                                <Typography variant="body1" style={{ color: 'white' }}>
+                                <Typography variant="body1" style={{ color: 'white', minHeight: '235px' }}>
                                     Created this project for the final sprint of unit 6 at Lambda school. Built over about a week period, with some improvements made after completeing Lambda. Had built a version of Game of Life in Python before starting at Lambda, this time building the project in React was a great way to hone my JS skills.
                                 </Typography>
                             </CardContent>
@@ -130,7 +130,7 @@ const Projects = () => {
                                 />
                             </a>
                             <CardContent>
-                                <Typography variant="body1" style={{ color: 'white' }}>
+                                <Typography variant="body1" style={{ color: 'white', minHeight: '235px' }}>
                                     Worked on this project with many different cohorts in a group of 6. I was responsible for and created the entire back-end of the project. This project was my favorite project I worked on while at Lambda. I loved learning how to write an elaborate and well documented Readme.
                                 </Typography>
                             </CardContent>
@@ -175,7 +175,7 @@ const Projects = () => {
                                 />
                             </a>
                             <CardContent>
-                                <Typography variant="body1" style={{ color: 'white' }}>
+                                <Typography variant="body1" style={{ color: 'white', minHeight: '235px' }}>
                                     Cube Timer is an aid for timing the solving of Rubik's cubes. I created CubeTimer not only because I love solving Rubix cubes but also because I love programming. This was one of the first projects I created after graduating Lambda, the project was made over a couple days in Oct 2020.
                                 </Typography>
                             </CardContent>
@@ -221,7 +221,7 @@ const Projects = () => {
                                 />
                             </a>
                             <CardContent>
-                                <Typography variant="body1" style={{ color: 'white' }}>
+                                <Typography variant="body1" style={{ color: 'white', minHeight: '235px' }}>
                                     NASA Photo of the Day was created using the NASA public daily photo API. Each day NASA will have a different photo or video to display. This project was the first react project I created from scratch in Unit 3 at Lambda school, it was a memorable project so after graduating Lambda I went back and updated this project.
                                 </Typography>
                             </CardContent>
@@ -267,7 +267,7 @@ const Projects = () => {
                                 />
                             </a>
                             <CardContent>
-                                <Typography variant="body1" style={{ color: 'white' }}>
+                                <Typography variant="body1" style={{ color: 'white', minHeight: '235px' }}>
                                     I created Run Tracker because I have a passion for running as well as programming. Run Tracker keeps track of your run times and are able to post good runs to a main feed. Creating an account allows the user to view their runs, edit and delete runs and edit their profile.
                                 </Typography>
                             </CardContent>
@@ -313,7 +313,7 @@ const Projects = () => {
                                 />
                             </a>
                             <CardContent>
-                                <Typography variant="body1" style={{ color: 'white' }}>
+                                <Typography variant="body1" style={{ color: 'white', minHeight: '235px' }}>
                                     I created Run Tracker because I have a passion for running as well as programming. Run Tracker keeps track of your run times and are able to post good runs to a main feed. Creating an account allows the user to view their runs, edit and delete runs and edit their profile.
                                 </Typography>
                             </CardContent>
@@ -346,9 +346,3 @@ const Projects = () => {
 }
 
 export default Projects;
-
-
-// To ADD? 
-
-// Bridges to pros
-// Ultramikro
