@@ -9,12 +9,12 @@ const Header = () => {
             {/* <header className="App-header"> */}
             {/* <img src={require('../Images/HeadShot.jpg')} alt='Mark Loegel' id='HeadShotImg' /> */}
             <header>
-                <Breadcrumbs aria-label="breadcrumb" color="white">
-                    <a href="aboutDiv" ><Typography color="white">About</Typography></a>
-                    <a href="skillsDiv" ><Typography color="white">Skills</Typography></a>
-                    <a href="edu" ><Typography color="white">Education</Typography></a>
-                    <a href="centerProjects" ><Typography color="white">Projects</Typography></a>
-                    <a href="#contactDiv" ><Typography color="white">Contact</Typography></a>
+                <Breadcrumbs aria-label="breadcrumb" style={{ color: "white" }}>
+                    <a href="aboutDiv" style={{ textDecoration: 'none' }}><Typography color="white"> About <i class="fas fa-scroll"></i></Typography></a>
+                    <a href="skillsDiv" style={{ textDecoration: 'none' }} ><Typography color="white"> Skills <i class="fas fa-medal"></i></Typography></a>
+                    <a href="edu" style={{ textDecoration: 'none' }}><Typography color="white"> Education <i class="fas fa-laptop-code"></i></Typography></a>
+                    <a href="centerProjects" style={{ textDecoration: 'none' }} ><Typography color="white"> Projects <i class="fas fa-folder-open"></i></Typography></a>
+                    <a href="#contactDiv" style={{ textDecoration: 'none' }} ><Typography color="white"> Contact <i class="fas fa-id-card"></i></Typography></a>
                 </Breadcrumbs>
                 <h1>Mark Loegel</h1>
                 <h3>Web Developer</h3>
