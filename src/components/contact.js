@@ -5,6 +5,7 @@ const Contact = () => {
     return (
         <div className='hvr-grow' id='contactDiv' >
             <div className="contact">
+                <h3><i class="fas fa-id-card"></i> Contact <i class="fas fa-id-card"></i></h3>
                 <p>Email <i class="fas fa-envelope-square"></i>: <a href='mailto:Meloegel@gmail.com'>Meloegel@gmail.com</a></p>
                 <p>LinkedIn <i class="fab fa-linkedin"></i>: <a href='https://www.linkedin.com/in/mark-loegel/'>https://www.linkedin.com/in/mark-loegel</a></p>
                 <p>Github <i class="fab fa-github"></i>: <a href='https://github.com/meloegel'>https://github.com/meloegel</a></p>

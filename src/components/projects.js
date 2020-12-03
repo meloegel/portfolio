@@ -63,7 +63,7 @@ const Projects = () => {
     return (
         <div className='hvr-grow' id='centerProjects'>
             <div className='projectsDiv'>
-                <h3>Projects</h3>
+                <h3><i class="fas fa-folder-open"></i> Projects <i class="fas fa-folder-open"></i></h3>
                 <div className='projectsContainer'>
                     <div className='projectCardSection'>
                         <Card

@@ -22,7 +22,7 @@ const Qualifications = (key) => {
             <div className="qualifications">
                 <div className='edu'>
                     <div>
-                        <h3>Education: Lambda School</h3>
+                        <h3><i class="fas fa-laptop-code"></i> Education: Lambda School <i class="fas fa-laptop-code"></i></h3>
                         <p>March 2020 - Nov 2020</p>
                         <p>Participated in the Lambda Leadership program</p>
                         <p>Part of the Lambda X Endorsement program</p>
@@ -36,7 +36,7 @@ const Qualifications = (key) => {
                         <img id='ouLogo' src={require('../styles/Images/OU.png')} alt='Oakland Univeristy Logo' />
                     </div>
                     <div>
-                        <h3>Previous Education: Oakland University</h3>
+                        <h3><i class="fas fa-university"></i> Previous Education: Oakland University <i class="fas fa-university"></i></h3>
                         <p>Studied Psychology with Focus in Child Development</p>
                         <p>2008-2012</p>
                         <p>Division 1 Athlete in Swimming</p>

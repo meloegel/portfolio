@@ -6,7 +6,7 @@ const Skills = () => {
     return (
         <div id='centerSkills'>
             <div id='skillsDiv' className='hvr-grow'  >
-                <h3 >Skills</h3>
+                <h3 ><i class="fas fa-medal"></i> Skills <i class="fas fa-medal"></i></h3>
                 <div className="skills-div">
                     <div className="skills">
                         <ul>
