@@ -24,13 +24,14 @@ const Skills = () => {
                         <ul>
                             <h4>Front-End</h4>
                             <li><i className="fab fa-react"></i> ReactJS</li>
+                            <li><i class="fas fa-map-marked-alt"></i> Mapbox</li>
+                            <li><i className="fab fa-bootstrap"></i> Bootstrap & ReactStrap</li>
+                            <li><i class="fas fa-chart-bar"></i> Plotly-Js</li>
                             <li>Redux</li>
                             <li>Context</li>
                             <li>Ant Design</li>
                             <li>Semantic UI</li>
                             <li>Material UI</li>
-                            <li><i class="fas fa-map-marked-alt"></i> Mapbox</li>
-                            <li><i className="fab fa-bootstrap"></i> Bootstrap & ReactStrap</li>
                             <li>Styled-Components</li>
                         </ul>
                     </div>
