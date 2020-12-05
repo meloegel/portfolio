@@ -359,7 +359,10 @@ const Projects = () => {
                             </a>
                             <CardContent>
                                 <Typography variant="body1" style={{ color: 'white', minHeight: '235px' }}>
-                                    Ultramikro description
+                                    Contracted to recover what was possible from previous site and create and deploy new site
+                                    Originally created the project in HTML in approximately 3 days. Deployed May 2020
+                                    Re-created the site in React in Oct in approximately 3 days. Deployed Oct 2020
+                                    Stakeholder happy with new site, remain in contact for future updates of the site
                                 </Typography>
                             </CardContent>
                             <CardActions>
