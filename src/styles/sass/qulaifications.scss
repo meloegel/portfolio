@@ -40,4 +40,7 @@
 // Media Queries //
 
 @media screen and (max-width: 376px) {
+  .edu {
+    flex-direction: column;
+  }
 }
