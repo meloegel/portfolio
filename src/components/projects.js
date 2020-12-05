@@ -339,6 +339,51 @@ const Projects = () => {
                             </Collapse>
                         </Card>
                     </div>
+                    {/* <div className='projectCardSection'>
+                        <Card
+                            style={{ backgroundColor: '#a6acba' }}
+                            className='projectCard'
+                            raised
+                        >
+                            <CardHeader
+                                style={{ color: 'white', textShadow: '.5px .5px black' }}
+                                title='Ultramikro'
+                                subheader='Nov 2020'
+                            />
+                            <a href='https://github.com/meloegel/ultraMikro'>
+                                <CardMedia
+                                    className={classes.media}
+                                    image={require('../styles/Images/Ultramikro.PNG')}
+                                    title='Ultramikro'
+                                />
+                            </a>
+                            <CardContent>
+                                <Typography variant="body1" style={{ color: 'white', minHeight: '235px' }}>
+                                    Ultramikro description
+                                </Typography>
+                            </CardContent>
+                            <CardActions>
+                                <Tooltip
+                                    placement='left'
+                                    title='Links'
+                                >
+                                    <IconButton
+                                        className={clsx(classes.expand, {
+                                            [classes.expandOpen]: sixExpand,
+                                        })}
+                                        onClick={handleSixExpand}
+                                        aria-expanded={sixExpand}
+                                        aria-label="links"
+                                    ><ExpandMoreIcon /></IconButton>
+                                </Tooltip>
+                            </CardActions>
+                            <Collapse in={sixExpand} timeout="auto" unmountOnExit>
+                                <CardContent>
+                                    <Typography variant="body1" style={{ color: 'white' }}>GitHub: <a className='cardLink' href='https://github.com/meloegel/ultraMikro'>github.com/meloegel/ultraMikro</a></Typography>
+                                </CardContent>
+                            </Collapse>
+                        </Card>
+                    </div> */}
                 </div>
             </div>
         </div >
