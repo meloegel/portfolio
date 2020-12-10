@@ -8,6 +8,7 @@ import About from './components/about'
 import Skills from './components/skills'
 import Qualifications from './components/qualifications'
 import Contact from './components/contact'
+import ProExp from './components/proExp'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
     <div className='body'>
       <Header />
       <About />
+      <ProExp />
       <Projects />
       <Skills />
       <Qualifications />
