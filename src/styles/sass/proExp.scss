@@ -12,13 +12,16 @@
 .proExpContentDiv {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 .proExpContentDivSwitch {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-around;
+  align-items: center;
 }
 
 .proExpContent {
   width: 48%;
+  text-align: center;
 }

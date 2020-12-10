@@ -40,9 +40,10 @@ const Skills = () => {
                             <h4>Back-End</h4>
                             <li><i className="fab fa-node-js"></i> NodeJS</li>
                             <li>Express</li>
+                            <li>Knex</li>
                             <li>Nodemon</li>
                             <li>PostgreSQL</li>
-                            <li>SQLite</li>
+                            <li>SQLite3</li>
                             <li>GraphQL</li>
                         </ul>
                     </div>
