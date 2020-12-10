@@ -18,7 +18,7 @@ const Header = () => {
                 </Breadcrumbs>
                 <h1>Mark Loegel</h1>
                 <h2>Web Developer</h2>
-                <a style={{ textDecoration: 'none' }} href={require('../styles/Images/Mark Resume (12-9-20).pdf')} download>
+                <a style={{ textDecoration: 'none' }} href={require('../styles/Images/Mark Resume (12-10-20).pdf')} download>
                     <Button variant='contained'>Download Resume</Button>
                 </a>
             </header>
