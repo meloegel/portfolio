@@ -72,9 +72,9 @@ const Projects = () => {
                             raised
                         >
                             <CardHeader
-                                style={{ color: 'white', textShadow: '.5px .5px black' }}
-                                title='Game of Life'
-                                subheader='Aug 2020'
+                                style={{ color: 'white' }}
+                                title='Game of Life | Aug 2020 Front End Developer'
+                                subheader='REACT| SASS | JEST'
                             />
                             <a href='https://game-of-life-bice.vercel.app/' >
                                 <CardMedia
@@ -84,7 +84,7 @@ const Projects = () => {
                                 />
                             </a>
                             <CardContent>
-                                <Typography variant="body1" style={{ color: 'white', minHeight: '235px' }}>
+                                <Typography variant="body1" style={{ color: 'white' }}>
                                     Created this project for the final sprint of unit 6 at Lambda school. Built over about a week period, with some improvements made after completeing Lambda. Had built a version of Game of Life in Python before starting at Lambda, this time building the project in React was a great way to hone my JS skills.
                                 </Typography>
                             </CardContent>
@@ -118,9 +118,9 @@ const Projects = () => {
                             raised
                         >
                             <CardHeader
-                                style={{ color: 'white', textShadow: '.5px .5px black' }}
-                                title='How-To BE'
-                                subheader='June 2020'
+                                style={{ color: 'white' }}
+                                title='How-To BE | June 2020 Back End Developer'
+                                subheader='NODE | EXPRESS | POSTGRESSQL | SQLITE3 | JEST'
                             />
                             <a href=' https://github.com/BW-how-2/Back-End'>
                                 <CardMedia
@@ -130,7 +130,7 @@ const Projects = () => {
                                 />
                             </a>
                             <CardContent>
-                                <Typography variant="body1" style={{ color: 'white', minHeight: '235px' }}>
+                                <Typography variant="body1" style={{ color: 'white' }}>
                                     Worked on this project with many different cohorts in a group of 6. I was responsible for and created the entire back-end of the project. This project was my favorite project I worked on while at Lambda. I loved learning how to write an elaborate and well documented Readme.
                                 </Typography>
                             </CardContent>
@@ -146,6 +146,7 @@ const Projects = () => {
                                         onClick={handleTwoExpand}
                                         aria-expanded={twoExpand}
                                         aria-label="links"
+                                        id='test'
                                     ><ExpandMoreIcon /></IconButton>
                                 </Tooltip>
                             </CardActions>
@@ -163,9 +164,9 @@ const Projects = () => {
                             raised
                         >
                             <CardHeader
-                                style={{ color: 'white', textShadow: '.5px .5px black' }}
-                                title='Cube Timer'
-                                subheader='Oct 2020'
+                                style={{ color: 'white' }}
+                                title='Cube Timer | Oct 2020 | Front End Developer'
+                                subheader='REACT | SASS | MATERIAL UI'
                             />
                             <a href='https://cube-timer.vercel.app/'>
                                 <CardMedia
@@ -175,7 +176,7 @@ const Projects = () => {
                                 />
                             </a>
                             <CardContent>
-                                <Typography variant="body1" style={{ color: 'white', minHeight: '235px' }}>
+                                <Typography variant="body1" style={{ color: 'white' }}>
                                     Cube Timer is an aid for timing the solving of Rubik's cubes. I created CubeTimer not only because I love solving Rubix cubes but also because I love programming. This was one of the first projects I created after graduating Lambda, the project was made over a couple days in Oct 2020.
                                 </Typography>
                             </CardContent>
@@ -191,6 +192,7 @@ const Projects = () => {
                                         onClick={handleThreeExpand}
                                         aria-expanded={threeExpand}
                                         aria-label="links"
+                                        id='test'
                                     ><ExpandMoreIcon /></IconButton>
                                 </Tooltip>
                             </CardActions>
@@ -209,9 +211,9 @@ const Projects = () => {
                             raised
                         >
                             <CardHeader
-                                style={{ color: 'white', textShadow: '.5px .5px black' }}
-                                title='NASA Photo of the Day'
-                                subheader='Oct 2020'
+                                style={{ color: 'white' }}
+                                title='NASA Photo of the Day | Oct 2020 | Front End Developer'
+                                subheader='REACT | SASS | STYLED COMPONENTS'
                             />
                             <a href='https://nasa-photo-of-the-day-mloegel.vercel.app/'>
                                 <CardMedia
@@ -221,8 +223,8 @@ const Projects = () => {
                                 />
                             </a>
                             <CardContent>
-                                <Typography variant="body1" style={{ color: 'white', minHeight: '235px' }}>
-                                    NASA Photo of the Day was created using the NASA public daily photo API. Each day NASA will have a different photo or video to display. This project was the first react project I created from scratch in Unit 3 at Lambda school, it was a memorable project so after graduating Lambda I went back and updated this project.
+                                <Typography variant="body1" style={{ color: 'white' }}>
+                                    NASA Photo of the Day was created using the NASA public daily photo API. Each day NASA will have a different photo or video to display. This project was the first react project I created from scratch in Unit 3 at Lambda school, after graduating Lambda I updated before deploying this project.
                                 </Typography>
                             </CardContent>
                             <CardActions>
@@ -255,9 +257,9 @@ const Projects = () => {
                             raised
                         >
                             <CardHeader
-                                style={{ color: 'white', textShadow: '.5px .5px black' }}
-                                title='Run Tracker FE'
-                                subheader='Nov 2020'
+                                style={{ color: 'white' }}
+                                title='Run Tracker FE | Nov 2020 FULL STACK DEVELOPER'
+                                subheader='REACT | SASS | MATERIAL UI | YUP | CYPRESS'
                             />
                             <a href='https://run-tracker.vercel.app/'>
                                 <CardMedia
@@ -267,7 +269,7 @@ const Projects = () => {
                                 />
                             </a>
                             <CardContent>
-                                <Typography variant="body1" style={{ color: 'white', minHeight: '235px' }}>
+                                <Typography variant="body1" style={{ color: 'white' }}>
                                     I created Run Tracker because I have a passion for running as well as programming. Run Tracker keeps track of your run times and are able to post good runs to a main feed. Creating an account allows the user to view their runs, edit and delete runs and edit their profile.
                                 </Typography>
                             </CardContent>
@@ -301,9 +303,9 @@ const Projects = () => {
                             raised
                         >
                             <CardHeader
-                                style={{ color: 'white', textShadow: '.5px .5px black' }}
-                                title='Run Tracker BE'
-                                subheader='Nov 2020'
+                                style={{ color: 'white' }}
+                                title='Run Tracker BE | Nov 2020 | FULL STACK DEVELOPER'
+                                subheader='NODE | EXPRESS | KNEX | JEST | POSTGRESSQL | SQLITE3'
                             />
                             <a href='https://github.com/meloegel/run-tracker-be'>
                                 <CardMedia
@@ -313,7 +315,7 @@ const Projects = () => {
                                 />
                             </a>
                             <CardContent>
-                                <Typography variant="body1" style={{ color: 'white', minHeight: '235px' }}>
+                                <Typography variant="body1" style={{ color: 'white' }}>
                                     I created Run Tracker because I have a passion for running as well as programming. Run Tracker keeps track of your run times and are able to post good runs to a main feed. Creating an account allows the user to view their runs, edit and delete runs and edit their profile.
                                 </Typography>
                             </CardContent>
