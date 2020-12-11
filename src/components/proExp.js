@@ -37,8 +37,8 @@ const ProExp = () => {
         setSixExpand(!sixExpand)
     }
     return (
-        <div className='proExpDiv'>
-            <h3>Professional Experience</h3>
+        <div className='proExpDiv' id='proExpo'>
+            <h3><i class="fas fa-user-tie"></i> Professional Experience <i class="fas fa-user-tie"></i></h3>
             <div>
                 <div className='projectCardSection'>
                     <Card
