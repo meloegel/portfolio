@@ -47,7 +47,7 @@ const ProExp = () => {
                         raised
                     >
                         <CardHeader
-                            style={{ color: 'white', textShadow: '.5px .5px black' }}
+                            style={{ color: 'white' }}
                             title='Bridges To Prosperity | Oct 2020 | Full Stack Developer'
                             subheader='NODE | EXPRESS | JEST | REACT | ANT DESIGN | MATERIAL UI | MAPBOX | PLOTLY'
                         />
@@ -99,7 +99,7 @@ const ProExp = () => {
                         raised
                     >
                         <CardHeader
-                            style={{ color: 'white', textShadow: '.5px .5px black' }}
+                            style={{ color: 'white' }}
                             title='Ultramikro | Nov 2020 | Front End Developer'
                             subheader='REACT | MATERIAL UI'
                         />

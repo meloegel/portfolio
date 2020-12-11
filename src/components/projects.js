@@ -146,7 +146,6 @@ const Projects = () => {
                                         onClick={handleTwoExpand}
                                         aria-expanded={twoExpand}
                                         aria-label="links"
-                                        id='test'
                                     ><ExpandMoreIcon /></IconButton>
                                 </Tooltip>
                             </CardActions>
@@ -192,7 +191,6 @@ const Projects = () => {
                                         onClick={handleThreeExpand}
                                         aria-expanded={threeExpand}
                                         aria-label="links"
-                                        id='test'
                                     ><ExpandMoreIcon /></IconButton>
                                 </Tooltip>
                             </CardActions>
