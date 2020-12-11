@@ -88,6 +88,7 @@ const ProExp = () => {
                             <CardContent>
                                 <Typography variant="body1" style={{ color: 'white' }}>GitHub FE: <a className='cardLink' href='https://github.com/meloegel/bridges-to-prosperity-fe-a'>github.com/meloegel/bridges-to-prosperity-fe-a</a></Typography>
                                 <Typography variant="body1" style={{ color: 'white' }}>GitHub BE: <a className='cardLink' href='https://github.com/meloegel/bridges-to-prosperity-be-a/tree/readme-loegel'>github.com/meloegel/bridges-to-prosperity-be-a/tree/readme-loegel</a></Typography>
+                                <Typography variant="body1" style={{ color: 'white' }}>Company Site: <a className='cardLink' href='https://www.bridgestoprosperity.org/'>bridgestoprosperity.org/</a></Typography>
                             </CardContent>
                         </Collapse>
                     </Card>
