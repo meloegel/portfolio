@@ -25,3 +25,17 @@
   width: 48%;
   text-align: center;
 }
+
+// Media Queries //
+
+@media screen and (max-width: 600px) {
+  .proExpContentDivSwitch {
+    flex-direction: column;
+  }
+  .proExpContent {
+    width: 95%;
+  }
+  .proExpContentDiv {
+    flex-direction: column;
+  }
+}
