@@ -48,6 +48,55 @@ const ProExp = () => {
                     >
                         <CardHeader
                             style={{ color: 'white' }}
+                            title='Hygieia | Jan 2021 | Full Stack Developer'
+                            subheader='NODE | EXPRESS | KNEX | REACT'
+                        />
+                        <div className='proExpContentDivSwitch'>
+                            <div className='proExpContent'>
+                                <CardMedia
+                                    className={classes.media}
+                                    image={require('../styles/Images/Hygieia.PNG')}
+                                    title='Hygieia'
+                                />
+                            </div>
+                            <div className='proExpContent'>
+                                <CardContent>
+                                    <Typography variant="body1" style={{ color: 'white', fontSize: '1rem' }}>
+                                        Contracted to consult with Hygieia to develop and deploy a web form for a patient to assign their benefits to Hygieia. Integrate the new AOB form with existing intake user flow currently deployed. Modify a NODE web service to persist the data gathered by physicians in a PDF as well as a MSSQL database deployed on Hygieia's AWS container. Manage and deploy source code from a GitHub account owned by Hygieia, Inc. and deploy website to Hygieia’s web servers.
+                                    </Typography>
+                                </CardContent>
+                            </div>
+                        </div>
+                        <CardActions>
+                            <Tooltip
+                                placement='left'
+                                title='Links'
+                            >
+                                <IconButton
+                                    className={clsx(classes.expand, {
+                                        [classes.expandOpen]: sixExpand,
+                                    })}
+                                    onClick={handleSixExpand}
+                                    aria-expanded={sixExpand}
+                                    aria-label="links"
+                                ><ExpandMoreIcon /></IconButton>
+                            </Tooltip>
+                        </CardActions>
+                        <Collapse in={sixExpand} timeout="auto" unmountOnExit>
+                            <CardContent>
+                                <Typography variant="body1" style={{ color: 'white' }}>Company Site: <a className='cardLink' href='https://hygieia.com/'>hygieia.com/</a></Typography>
+                            </CardContent>
+                        </Collapse>
+                    </Card>
+                </div>
+                <div className='projectCardSection'>
+                    <Card
+                        style={{ backgroundColor: '#a6acba', width: '85%', margin: '0 auto' }}
+                        className='proExpCard'
+                        raised
+                    >
+                        <CardHeader
+                            style={{ color: 'white' }}
                             title='Bridges To Prosperity | Oct 2020 | Full Stack Developer'
                             subheader='NODE | EXPRESS | JEST | REACT | ANT DESIGN | MATERIAL UI | MAPBOX | PLOTLY'
                         />
