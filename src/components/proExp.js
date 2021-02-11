@@ -33,9 +33,23 @@ const useStyles = makeStyles((theme) => ({
 const ProExp = () => {
     const classes = useStyles();
     const [sixExpand, setSixExpand] = useState(false);
+    const [sevenExpand, setSevenExpand] = useState(false);
+    const [eightExpand, setEightExpand] = useState(false);
+
     const handleSixExpand = () => {
         setSixExpand(!sixExpand)
     }
+
+    const handleSevenExpand = () => {
+        setSevenExpand(!sevenExpand)
+    }
+
+    const handleEightExpand = () => {
+        setEightExpand(!eightExpand)
+    }
+
+
+
     return (
         <div className='proExpDiv' id='proExpo'>
             <h3><i class="fas fa-user-tie"></i> Professional Experience <i class="fas fa-user-tie"></i></h3>
@@ -127,13 +141,13 @@ const ProExp = () => {
                                     className={clsx(classes.expand, {
                                         [classes.expandOpen]: sixExpand,
                                     })}
-                                    onClick={handleSixExpand}
-                                    aria-expanded={sixExpand}
+                                    onClick={handleSevenExpand}
+                                    aria-expanded={sevenExpand}
                                     aria-label="links"
                                 ><ExpandMoreIcon /></IconButton>
                             </Tooltip>
                         </CardActions>
-                        <Collapse in={sixExpand} timeout="auto" unmountOnExit>
+                        <Collapse in={sevenExpand} timeout="auto" unmountOnExit>
                             <CardContent>
                                 <Typography variant="body1" style={{ color: 'white' }}>GitHub FE: <a className='cardLink' href='https://github.com/meloegel/bridges-to-prosperity-fe-a'>github.com/meloegel/bridges-to-prosperity-fe-a</a></Typography>
                                 <Typography variant="body1" style={{ color: 'white' }}>GitHub BE: <a className='cardLink' href='https://github.com/meloegel/bridges-to-prosperity-be-a/tree/readme-loegel'>github.com/meloegel/bridges-to-prosperity-be-a/tree/readme-loegel</a></Typography>
@@ -181,15 +195,15 @@ const ProExp = () => {
                             >
                                 <IconButton
                                     className={clsx(classes.expand, {
-                                        [classes.expandOpen]: sixExpand,
+                                        [classes.expandOpen]: eightExpand,
                                     })}
-                                    onClick={handleSixExpand}
-                                    aria-expanded={sixExpand}
+                                    onClick={handleEightExpand}
+                                    aria-expanded={eightExpand}
                                     aria-label="links"
                                 ><ExpandMoreIcon /></IconButton>
                             </Tooltip>
                         </CardActions>
-                        <Collapse in={sixExpand} timeout="auto" unmountOnExit>
+                        <Collapse in={eightExpand} timeout="auto" unmountOnExit>
                             <CardContent>
                                 <Typography variant="body1" style={{ color: 'white' }}>Deployed Link: <a className='cardLink' href='https://ultramikro.vercel.app/'>ultramikro.vercel.app/</a></Typography>
                                 <Typography variant="body1" style={{ color: 'white' }}>GitHub: <a className='cardLink' href='https://github.com/meloegel/ultraMikro'>github.com/meloegel/ultraMikro</a></Typography>
