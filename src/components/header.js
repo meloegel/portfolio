@@ -5,7 +5,7 @@ import Breadcrumbs from '@material-ui/core/Breadcrumbs';
 
 const Header = () => {
     return (
-        <div className="w-4/5 flex flex-col items-center justify-center text-center headerPhoto bg-center bg-no-repeat bg-cover h400px rounded-3xl text-white text-base">
+        <div className="w-4/5 flex flex-col items-center justify-center text-center headerPhoto bg-center bg-no-repeat bg-cover h-auto md:h400px rounded-3xl text-white text-base m-auto header">
             <header>
                 <Breadcrumbs aria-label="breadcrumb" style={{ color: "white" }}>
                     <a href="#aboutDiv" style={{ textDecoration: 'none' }}><Typography color="white"> About <i class="fas fa-scroll"></i></Typography></a>

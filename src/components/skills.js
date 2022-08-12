@@ -4,11 +4,11 @@ import React from 'react'
 const Skills = () => {
 
     return (
-        <div id='centerSkills'>
-            <div id='skillsDiv' className='hvr-grow'  >
+        <div className="w-full text-center mb-1.5">
+            <div className='hvr-grow relative bg-gray-500 p-1.5 rounded-r-3xl text-left mx-auto my-8'>
                 <h3 ><i class="fas fa-medal"></i> Skills <i class="fas fa-medal"></i></h3>
-                <div className="skills-div">
-                    <div className="skills">
+                <div className="flex mb-8 flex-col md:flex-row">
+                    <div className="m-auto text-white text-center p-1 md:p-0 ">
                         <ul>
                             <h4>Core Skills</h4>
                             <li><i className="fab fa-html5"></i> HTML</li>
@@ -20,7 +20,7 @@ const Skills = () => {
                             <li>SQL</li>
                         </ul>
                     </div>
-                    <div className="skills">
+                    <div className="m-auto text-white text-center p-1 md:p-0 ">
                         <ul>
                             <h4>Front-End</h4>
                             <li><i className="fab fa-react"></i> ReactJS</li>
@@ -35,7 +35,7 @@ const Skills = () => {
                             <li>Styled-Components</li>
                         </ul>
                     </div>
-                    <div className="skills">
+                    <div className="m-auto text-white text-center p-1 md:p-0 ">
                         <ul>
                             <h4>Back-End</h4>
                             <li><i className="fab fa-node-js"></i> NodeJS</li>
@@ -47,7 +47,7 @@ const Skills = () => {
                             <li>GraphQL</li>
                         </ul>
                     </div>
-                    <div className="skills">
+                    <div className="m-auto text-white text-center p-1 md:p-0 ">
                         <ul>
                             <h4>Testing</h4>
                             <li>Cypress</li>
