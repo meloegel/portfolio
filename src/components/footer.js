@@ -6,11 +6,11 @@ import Breadcrumbs from '@material-ui/core/Breadcrumbs';
 const Footer = () => {
     return (
         <div>
-            <header className="App-footer">
+            <header className="bg-zinc-800 flex items-center justify-center text-white">
                 <img src={logo} className="App-logo" alt="logo" />
                 <p>Powered By React</p>
             </header>
-            <div id='bottomNav'>
+            <div className="text-center flex justify-center">
                 <Breadcrumbs aria-label="breadcrumb" style={{ color: "white" }}>
                     <a href="#aboutDiv" style={{ textDecoration: 'none' }}><Typography color="white"> About <i class="fas fa-scroll"></i></Typography></a>
                     <a href="#proExpo" style={{ textDecoration: 'none' }} ><Typography color="white"> Professional Experience <i class="fas fa-user-tie"></i></Typography></a>
