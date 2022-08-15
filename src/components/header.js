@@ -5,7 +5,7 @@ import Breadcrumbs from '@material-ui/core/Breadcrumbs';
 
 const Header = () => {
     return (
-        <div className="w-4/5 flex flex-col items-center justify-center text-center headerPhoto bg-center bg-no-repeat bg-cover h-auto md:h400px rounded-3xl text-white text-base m-auto header">
+        <div className="w-4/5 flex flex-col items-center justify-center text-center bg-[url('../Images/HeaderPhoto.jpg')] bg-center bg-no-repeat bg-cover h-auto md:h400px rounded-3xl text-white text-base m-auto header">
             <header>
                 <Breadcrumbs aria-label="breadcrumb" style={{ color: "white" }}>
                     <a href="#aboutDiv" style={{ textDecoration: 'none' }}><Typography color="white"> About <i class="fas fa-scroll"></i></Typography></a>
@@ -17,7 +17,7 @@ const Header = () => {
                 </Breadcrumbs>
                 <h1>Mark Loegel</h1>
                 <h2>Web Developer</h2>
-                <a style={{ textDecoration: 'none' }} href={require('../styles/Images/Mark Resume (2-10-21).pdf')} download>
+                <a style={{ textDecoration: 'none' }} href={require('../Images/Mark Resume (2-10-21).pdf')} download>
                     <Button variant='contained'>Download Resume</Button>
                 </a>
             </header>

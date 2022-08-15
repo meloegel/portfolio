@@ -79,7 +79,7 @@ const Projects = () => {
                             <a href='https://game-of-life-bice.vercel.app/' >
                                 <CardMedia
                                     className={classes.media}
-                                    image={require('../styles/Images/GameOfLifePortfolio.PNG')}
+                                    image={require('../Images/GameOfLifePortfolio.PNG')}
                                     title='Game of Life'
                                 />
                             </a>
@@ -125,7 +125,7 @@ const Projects = () => {
                             <a href=' https://github.com/BW-how-2/Back-End'>
                                 <CardMedia
                                     className={classes.media}
-                                    image={require('../styles/Images/HowToImage.PNG')}
+                                    image={require('../Images/HowToImage.PNG')}
                                     title='How-To BE'
                                 />
                             </a>
@@ -170,7 +170,7 @@ const Projects = () => {
                             <a href='https://cube-timer.vercel.app/'>
                                 <CardMedia
                                     className={classes.media}
-                                    image={require('../styles/Images/CubeTimer.PNG')}
+                                    image={require('../Images/CubeTimer.PNG')}
                                     title='Cube Timer'
                                 />
                             </a>
@@ -216,7 +216,7 @@ const Projects = () => {
                             <a href='https://nasa-photo-of-the-day-mloegel.vercel.app/'>
                                 <CardMedia
                                     className={classes.media}
-                                    image={require('../styles/Images/NasaPOTD.PNG')}
+                                    image={require('../Images/NasaPOTD.PNG')}
                                     title='Cube Timer'
                                 />
                             </a>
@@ -262,7 +262,7 @@ const Projects = () => {
                             <a href='https://run-tracker.vercel.app/'>
                                 <CardMedia
                                     className={classes.media}
-                                    image={require('../styles/Images/runTrackerFE.PNG')}
+                                    image={require('../Images/runTrackerFE.PNG')}
                                     title='Run Tracker FE'
                                 />
                             </a>
@@ -308,7 +308,7 @@ const Projects = () => {
                             <a href='https://github.com/meloegel/run-tracker-be'>
                                 <CardMedia
                                     className={classes.media}
-                                    image={require('../styles/Images/runTrackerBE.PNG')}
+                                    image={require('../Images/runTrackerBE.PNG')}
                                     title='Run Tracker BE'
                                 />
                             </a>

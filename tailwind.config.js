@@ -6,9 +6,6 @@ module.exports = {
       'foo': "400px"
     },
     extend: {
-      backgroundImage: {
-        'headerPhoto': url("../Images/HeaderPhoto.jpg"),
-      },
       height: {
         'h400px': '25rem',
       }

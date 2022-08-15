@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-//Header
+/* //Header */
 @media screen and (max-width: 376px) {
   .MuiBreadcrumbs-ol {
     display: flex;
@@ -14,11 +14,11 @@
   text-shadow: 1px 1px 8px black;
 }
 
-// Global Styles //
+/* // Global Styles // */
 
-// Fonts
+/* // Fonts
 //  font-family: "Roboto", sans-serif; // Main Font
-//  font-family: "Oswald", sans-serif; // Title Font
+//  font-family: "Oswald", sans-serif; // Title Font */
 
 html {
   background-color: white;
@@ -66,7 +66,7 @@ p {
   display: none;
 }
 
-//React logo //
+/* //React logo // */
 
 @keyframes App-logo-spin {
   from {

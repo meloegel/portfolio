@@ -29,11 +29,11 @@ const Qualifications = (key) => {
                     </div>
                     <div>
                         <a href='https://www.youracclaim.com/badges/50d30b03-c8f6-4054-ab84-062437c1598a/linked_in' target='_blank' rel="noopener noreferrer">
-                            <img className="items-center justify-center w-56" src={require('../styles/Images/lambda-badge-full-stack-web.png')} alt='Lambda Badge' />
+                            <img className="items-center justify-center w-56" src={require('../Images/lambda-badge-full-stack-web.png')} alt='Lambda Badge' />
                         </a>
                     </div>
                     <div>
-                        <img className="p-4 w-36" src={require('../styles/Images/OU.png')} alt='Oakland University Logo' />
+                        <img className="p-4 w-36" src={require('../Images/OU.png')} alt='Oakland University Logo' />
                     </div>
                     <div>
                         <h3><i class="fas fa-university"></i> Previous Education: Oakland University <i class="fas fa-university"></i></h3>

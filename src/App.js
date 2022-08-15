@@ -1,5 +1,4 @@
 import React from 'react';
-import './styles/sass/index.scss';
 
 import Header from './components/header'
 import Projects from './components/projects'

@@ -69,7 +69,7 @@ const ProExp = () => {
                             <div className='w-1/2 text-center'>
                                 <CardMedia
                                     className={classes.media}
-                                    image={require('../styles/Images/Hygieia.PNG')}
+                                    image={require('../Images/Hygieia.PNG')}
                                     title='Hygieia'
                                 />
                             </div>
@@ -119,7 +119,7 @@ const ProExp = () => {
                                 <a href='https://github.com/meloegel/bridges-to-prosperity-fe-a'>
                                     <CardMedia
                                         className={classes.media}
-                                        image={require('../styles/Images/BTP.PNG')}
+                                        image={require('../Images/BTP.PNG')}
                                         title='Bridges To Prosperity'
                                     />
                                 </a>
@@ -172,7 +172,7 @@ const ProExp = () => {
                                 <a href='https://ultramikro.vercel.app/'>
                                     <CardMedia
                                         className={classes.media}
-                                        image={require('../styles/Images/Ultramikro.PNG')}
+                                        image={require('../Images/Ultramikro.PNG')}
                                         title='Ultramikro'
                                     />
                                 </a>
