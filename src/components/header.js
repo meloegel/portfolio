@@ -5,7 +5,7 @@ import Breadcrumbs from '@material-ui/core/Breadcrumbs';
 
 const Header = () => {
     return (
-        <div className="header">
+        <div className="w-10/12 flex flex-col items-center justify-center text-center bg-headerPhoto bg-center bg-no-repeat bg-cover h-auto md:h-h400px rounded-3xl text-white text-base m-auto header mb-2">
             <header>
                 <Breadcrumbs aria-label="breadcrumb" style={{ color: "white" }}>
                     <a href="#aboutDiv" style={{ textDecoration: 'none' }}><Typography color="white"> About <i class="fas fa-scroll"></i></Typography></a>
@@ -15,11 +15,13 @@ const Header = () => {
                     <a href="#edu" style={{ textDecoration: 'none' }}><Typography color="white"> Education <i class="fas fa-laptop-code"></i></Typography></a>
                     <a href="#contactDiv" style={{ textDecoration: 'none' }} ><Typography color="white"> Contact <i class="fas fa-id-card"></i></Typography></a>
                 </Breadcrumbs>
-                <h1>Mark Loegel</h1>
-                <h2>Web Developer</h2>
-                <a style={{ textDecoration: 'none' }} href={require('../styles/Images/Mark Resume (2-10-21).pdf')} download>
-                    <Button variant='contained'>Download Resume</Button>
-                </a>
+                <div className="p-4">
+                    <h1>Mark Loegel</h1>
+                    <h2 className="p-4">Web Developer</h2>
+                    <a style={{ textDecoration: 'none' }} href={require('../Images/Mark Resume (2-10-21).pdf')} download>
+                        <Button variant='contained'>Download Resume</Button>
+                    </a>
+                </div>
             </header>
         </div >
     )

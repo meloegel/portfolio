@@ -61,13 +61,13 @@ const Projects = () => {
     }
 
     return (
-        <div className='hvr-grow' id='centerProjects'>
-            <div className='projectsDiv'>
+        <div className='hvr-grow w-full text-center'>
+            <div className='m-auto text-center relative mt-6 bg-gray-500 rounded-3xl p-1.5 w-10/12'>
                 <h3><i class="fas fa-folder-open"></i> Projects <i class="fas fa-folder-open"></i></h3>
-                <div className='projectsContainer'>
-                    <div className='projectCardSection'>
+                <div className="flex flex-wrap items-center justify-center w-11/12 m-auto text-white p-4">
+                    <div className='flex p-6'>
                         <Card
-                            className='projectCard'
+                            className='w-80 bg-gray-500'
                             style={{ backgroundColor: '#a6acba' }}
                             raised
                         >
@@ -79,7 +79,7 @@ const Projects = () => {
                             <a href='https://game-of-life-bice.vercel.app/' >
                                 <CardMedia
                                     className={classes.media}
-                                    image={require('../styles/Images/GameOfLifePortfolio.PNG')}
+                                    image={require('../Images/GameOfLifePortfolio.PNG')}
                                     title='Game of Life'
                                 />
                             </a>
@@ -105,16 +105,16 @@ const Projects = () => {
                             </CardActions>
                             <Collapse in={oneExpand} timeout="auto" unmountOnExit>
                                 <CardContent>
-                                    <Typography variant="body1" style={{ color: 'white' }}>Link: <a className='cardLink' href='https://game-of-life-bice.vercel.app/' >game-of-life-bice.vercel.app</a></Typography>
-                                    <Typography variant="body1" style={{ color: 'white' }}>GitHub: <a className='cardLink' href='https://github.com/meloegel/Game_of_life' >github.com/meloegel/game_of_life</a></Typography>
+                                    <Typography variant="body1" style={{ color: 'white' }}>Link: <a className='text-white' href='https://game-of-life-bice.vercel.app/' >game-of-life-bice.vercel.app</a></Typography>
+                                    <Typography variant="body1" style={{ color: 'white' }}>GitHub: <a className='text-white' href='https://github.com/meloegel/Game_of_life' >github.com/meloegel/game_of_life</a></Typography>
                                 </CardContent>
                             </Collapse>
                         </Card>
                     </div>
-                    <div className='projectCardSection'>
+                    <div className='flex p-6'>
                         <Card
                             style={{ backgroundColor: '#a6acba' }}
-                            className='projectCard'
+                            className='bg-gray-400 w-80'
                             raised
                         >
                             <CardHeader
@@ -125,7 +125,7 @@ const Projects = () => {
                             <a href=' https://github.com/BW-how-2/Back-End'>
                                 <CardMedia
                                     className={classes.media}
-                                    image={require('../styles/Images/HowToImage.PNG')}
+                                    image={require('../Images/HowToImage.PNG')}
                                     title='How-To BE'
                                 />
                             </a>
@@ -151,15 +151,15 @@ const Projects = () => {
                             </CardActions>
                             <Collapse in={twoExpand} timeout="auto" unmountOnExit>
                                 <CardContent>
-                                    <Typography variant="body1" style={{ color: 'white' }}>GitHub: <a className='cardLink' href=' https://github.com/BW-how-2/Back-End'>github.com/BW-how-2/Back-End</a></Typography>
+                                    <Typography variant="body1" style={{ color: 'white' }}>GitHub: <a className='text-white' href=' https://github.com/BW-how-2/Back-End'>github.com/BW-how-2/Back-End</a></Typography>
                                 </CardContent>
                             </Collapse>
                         </Card>
                     </div>
-                    <div className='projectCardSection'>
+                    <div className='flex p-6'>
                         <Card
                             style={{ backgroundColor: '#a6acba' }}
-                            className='projectCard'
+                            className='w-80 bg-gray-500'
                             raised
                         >
                             <CardHeader
@@ -170,7 +170,7 @@ const Projects = () => {
                             <a href='https://cube-timer.vercel.app/'>
                                 <CardMedia
                                     className={classes.media}
-                                    image={require('../styles/Images/CubeTimer.PNG')}
+                                    image={require('../Images/CubeTimer.PNG')}
                                     title='Cube Timer'
                                 />
                             </a>
@@ -196,16 +196,16 @@ const Projects = () => {
                             </CardActions>
                             <Collapse in={threeExpand} timeout="auto" unmountOnExit>
                                 <CardContent>
-                                    <Typography variant="body1" style={{ color: 'white' }}>Link: <a className='cardLink' href='https://cube-timer.vercel.app/'>cube-timer.vercel.app/</a></Typography>
-                                    <Typography variant="body1" style={{ color: 'white' }}>GitHub: <a className='cardLink' href='https://github.com/meloegel/Cube-Timer'>github.com/meloegel/Cube-Timer</a></Typography>
+                                    <Typography variant="body1" style={{ color: 'white' }}>Link: <a className='text-white' href='https://cube-timer.vercel.app/'>cube-timer.vercel.app/</a></Typography>
+                                    <Typography variant="body1" style={{ color: 'white' }}>GitHub: <a className='text-white' href='https://github.com/meloegel/Cube-Timer'>github.com/meloegel/Cube-Timer</a></Typography>
                                 </CardContent>
                             </Collapse>
                         </Card>
                     </div>
-                    <div className='projectCardSection'>
+                    <div className='flex p-6'>
                         <Card
                             style={{ backgroundColor: '#a6acba' }}
-                            className='projectCard'
+                            className='w-80 bg-gray-500'
                             raised
                         >
                             <CardHeader
@@ -216,7 +216,7 @@ const Projects = () => {
                             <a href='https://nasa-photo-of-the-day-mloegel.vercel.app/'>
                                 <CardMedia
                                     className={classes.media}
-                                    image={require('../styles/Images/NasaPOTD.PNG')}
+                                    image={require('../Images/NasaPOTD.PNG')}
                                     title='Cube Timer'
                                 />
                             </a>
@@ -242,16 +242,16 @@ const Projects = () => {
                             </CardActions>
                             <Collapse in={fourExpand} timeout="auto" unmountOnExit>
                                 <CardContent>
-                                    <Typography variant="body1" style={{ color: 'white' }}>Link: <a className='cardLink' href='https://nasa-photo-of-the-day-mloegel.vercel.app/'>nasa-photo-of-the-day-mloegel.vercel.app/</a></Typography>
-                                    <Typography variant="body1" style={{ color: 'white' }}>GitHub: <a className='cardLink' href='https://github.com/meloegel/nasa-photo-of-the-day'>github.com/meloegel/nasa-photo-of-the-day</a></Typography>
+                                    <Typography variant="body1" style={{ color: 'white' }}>Link: <a className='text-white' href='https://nasa-photo-of-the-day-mloegel.vercel.app/'>nasa-photo-of-the-day-mloegel.vercel.app/</a></Typography>
+                                    <Typography variant="body1" style={{ color: 'white' }}>GitHub: <a className='text-white' href='https://github.com/meloegel/nasa-photo-of-the-day'>github.com/meloegel/nasa-photo-of-the-day</a></Typography>
                                 </CardContent>
                             </Collapse>
                         </Card>
                     </div>
-                    <div className='projectCardSection'>
+                    <div className='flex p-6'>
                         <Card
                             style={{ backgroundColor: '#a6acba' }}
-                            className='projectCard'
+                            className='w-80 bg-gray-500'
                             raised
                         >
                             <CardHeader
@@ -262,7 +262,7 @@ const Projects = () => {
                             <a href='https://run-tracker.vercel.app/'>
                                 <CardMedia
                                     className={classes.media}
-                                    image={require('../styles/Images/runTrackerFE.PNG')}
+                                    image={require('../Images/runTrackerFE.PNG')}
                                     title='Run Tracker FE'
                                 />
                             </a>
@@ -288,16 +288,16 @@ const Projects = () => {
                             </CardActions>
                             <Collapse in={fiveExpand} timeout="auto" unmountOnExit>
                                 <CardContent>
-                                    <Typography variant="body1" style={{ color: 'white' }}>Link: <a className='cardLink' href='https://run-tracker.vercel.app/'>run-tracker.vercel.app/</a></Typography>
-                                    <Typography variant="body1" style={{ color: 'white' }}>GitHub: <a className='cardLink' href='https://github.com/meloegel/run-tracker-fe'>github.com/meloegel/run-tracker-fe</a></Typography>
+                                    <Typography variant="body1" style={{ color: 'white' }}>Link: <a className='text-white' href='https://run-tracker.vercel.app/'>run-tracker.vercel.app/</a></Typography>
+                                    <Typography variant="body1" style={{ color: 'white' }}>GitHub: <a className='text-white' href='https://github.com/meloegel/run-tracker-fe'>github.com/meloegel/run-tracker-fe</a></Typography>
                                 </CardContent>
                             </Collapse>
                         </Card>
                     </div>
-                    <div className='projectCardSection'>
+                    <div className='flex p-6'>
                         <Card
                             style={{ backgroundColor: '#a6acba' }}
-                            className='projectCard'
+                            className='w-80 bg-gray-500'
                             raised
                         >
                             <CardHeader
@@ -308,7 +308,7 @@ const Projects = () => {
                             <a href='https://github.com/meloegel/run-tracker-be'>
                                 <CardMedia
                                     className={classes.media}
-                                    image={require('../styles/Images/runTrackerBE.PNG')}
+                                    image={require('../Images/runTrackerBE.PNG')}
                                     title='Run Tracker BE'
                                 />
                             </a>
@@ -334,7 +334,7 @@ const Projects = () => {
                             </CardActions>
                             <Collapse in={sixExpand} timeout="auto" unmountOnExit>
                                 <CardContent>
-                                    <Typography variant="body1" style={{ color: 'white' }}>GitHub: <a className='cardLink' href='https://github.com/meloegel/run-tracker-be'>github.com/meloegel/run-tracker-be</a></Typography>
+                                    <Typography variant="body1" style={{ color: 'white' }}>GitHub: <a className='text-white' href='https://github.com/meloegel/run-tracker-be'>github.com/meloegel/run-tracker-be</a></Typography>
                                 </CardContent>
                             </Collapse>
                         </Card>
