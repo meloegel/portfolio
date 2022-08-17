@@ -6,7 +6,7 @@ import Breadcrumbs from '@material-ui/core/Breadcrumbs';
 const Footer = () => {
     return (
         <div>
-            <header className="bg-zinc-800 flex items-center justify-center text-white">
+            <header className="flex items-center justify-center text-white">
                 <img src={logo} className="App-logo" alt="logo" />
                 <p>Powered By React</p>
             </header>

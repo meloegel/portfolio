@@ -1,20 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import PrevWork from './prevWork'
-import { useLocalStorage } from './useLocalStorage'
+
 
 const Qualifications = (key) => {
-    const [values, setValues] = useLocalStorage(key);
+    const [values, setValues] = useState(false)
 
-    const History = e => {
-        e.preventDefault()
-        setValues(!values);
-        if (values === false) {
-            window.document.getElementById('prevWork').classList.add('display')
-            window.document.getElementById('closeButton').classList.add('display')
-        } else {
-            window.document.getElementById('prevWork').classList.remove('display')
-            window.document.getElementById('closeButton').classList.remove('display')
-        }
+    const openPrevWork = () => {
+        setValues(!values)
     }
 
     return (
@@ -43,9 +35,11 @@ const Qualifications = (key) => {
                         <p>4 year Conference Champions</p>
                     </div>
                 </div>
-                <button onClick={History}>Previous Work Experience <p className="p-0 m-auto text-black">(non-programming)</p></button>
-                <PrevWork />
-                <button onClick={History} className='display mt-6 mb-4'>Close</button>
+                <button onClick={() => openPrevWork()}>Previous Work Experience <p className="p-0 m-auto text-black">(non-programming)</p></button>
+                {values === true && <>
+                    <PrevWork />
+                    <button onClick={() => openPrevWork()} className='display mt-6 mb-4'>Close</button>
+                </>}
             </div>
         </div>
     )
