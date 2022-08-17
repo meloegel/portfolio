@@ -62,12 +62,12 @@ const Projects = () => {
 
     return (
         <div className='hvr-grow w-full text-center'>
-            <div className='m-auto text-center realitive mt-6 bg-gray-500 rounded-3xl p-1.5 w-10/12'>
+            <div className='m-auto text-center relative mt-6 bg-gray-500 rounded-3xl p-1.5 w-10/12'>
                 <h3><i class="fas fa-folder-open"></i> Projects <i class="fas fa-folder-open"></i></h3>
-                <div className='flex flex-wrap items-center justify-center w-11/12 m-auto text-white p-4'>
+                <div className="flex flex-wrap items-center justify-center w-11/12 m-auto text-white p-4">
                     <div className='flex p-6'>
                         <Card
-                            className='projectCard'
+                            className='w-80 bg-gray-500'
                             style={{ backgroundColor: '#a6acba' }}
                             raised
                         >
@@ -159,7 +159,7 @@ const Projects = () => {
                     <div className='flex p-6'>
                         <Card
                             style={{ backgroundColor: '#a6acba' }}
-                            className='projectCard'
+                            className='w-80 bg-gray-500'
                             raised
                         >
                             <CardHeader
@@ -205,7 +205,7 @@ const Projects = () => {
                     <div className='flex p-6'>
                         <Card
                             style={{ backgroundColor: '#a6acba' }}
-                            className='projectCard'
+                            className='w-80 bg-gray-500'
                             raised
                         >
                             <CardHeader
@@ -251,7 +251,7 @@ const Projects = () => {
                     <div className='flex p-6'>
                         <Card
                             style={{ backgroundColor: '#a6acba' }}
-                            className='projectCard'
+                            className='w-80 bg-gray-500'
                             raised
                         >
                             <CardHeader
@@ -297,7 +297,7 @@ const Projects = () => {
                     <div className='flex p-6'>
                         <Card
                             style={{ backgroundColor: '#a6acba' }}
-                            className='projectCard'
+                            className='w-80 bg-gray-500'
                             raised
                         >
                             <CardHeader

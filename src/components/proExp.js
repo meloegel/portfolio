@@ -54,10 +54,9 @@ const ProExp = () => {
         <div className='m-auto relative text-center mt-6 bg-gray-500 rounded-3xl p-2 w-10/12' id='proExpo'>
             <h3><i class="fas fa-user-tie"></i> Professional Experience <i class="fas fa-user-tie"></i></h3>
             <div>
-                <div className='projectCardSection'>
+                <div className='flex p-6'>
                     <Card
                         style={{ backgroundColor: '#a6acba', width: '85%', margin: '0 auto' }}
-                        className='proExpCard'
                         raised
                     >
                         <CardHeader
@@ -103,10 +102,9 @@ const ProExp = () => {
                         </Collapse>
                     </Card>
                 </div>
-                <div className='projectCardSection'>
+                <div className='flex p-6'>
                     <Card
                         style={{ backgroundColor: '#a6acba', width: '85%', margin: '0 auto' }}
-                        className='proExpCard'
                         raised
                     >
                         <CardHeader
@@ -156,10 +154,9 @@ const ProExp = () => {
                         </Collapse>
                     </Card>
                 </div>
-                <div className='projectCardSection'>
+                <div className='flex p-6 text-center'>
                     <Card
                         style={{ backgroundColor: '#a6acba', width: '85%', margin: '0 auto' }}
-                        className='proExpCard'
                         raised
                     >
                         <CardHeader
@@ -167,7 +164,7 @@ const ProExp = () => {
                             title='Ultramikro | Nov 2020 | Front End Developer'
                             subheader='REACT | MATERIAL UI'
                         />
-                        <div className='w-1/2 text-centerDiv'>
+                        <div className='flex justify-around align-center'>
                             <div className='w-1/2 text-center'>
                                 <a href='https://ultramikro.vercel.app/'>
                                     <CardMedia
