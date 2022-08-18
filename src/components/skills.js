@@ -17,6 +17,9 @@ const Skills = () => {
                             <li><i class="fab fa-sass"></i> SASS</li>
                             <li><i className="fab fa-js-square"></i> Javascript</li>
                             <li><i className="fab fa-python"></i> Python</li>
+                            <li>Typescript</li>
+                            <li>Java</li>
+                            <li>Kotlin</li>
                             <li>SQL</li>
                         </ul>
                     </div>
@@ -28,8 +31,7 @@ const Skills = () => {
                             <li><i className="fab fa-bootstrap"></i> Bootstrap & ReactStrap</li>
                             <li><i class="fas fa-chart-bar"></i> Plotly-Js</li>
                             <li>Redux</li>
-                            <li>Context</li>
-                            <li>Ant Design</li>
+                            <li>Tailwind Css</li>
                             <li>Semantic UI</li>
                             <li>Material UI</li>
                             <li>Styled-Components</li>
