@@ -61,8 +61,56 @@ const ProExp = () => {
                     >
                         <CardHeader
                             style={{ color: 'white' }}
+                            title='Ford Motor Company | Aug 2021 - Present | Full Stack Developer'
+                            subheader='KOTLIN | JAVA | REACT'
+                        />
+                        <div className='flex justify-around align-center'>
+                            <div className='w-1/2 text-center'>
+                                <CardMedia
+                                    className={classes.media}
+                                    image={require('../Images/Ford.jpg')}
+                                    title='Hygieia'
+                                />
+                            </div>
+                            <div className='w-1/2 text-center'>
+                                <CardContent>
+                                    <Typography variant="body1" style={{ color: 'white', fontSize: '1rem' }}>
+                                        I Have been working as a software engineer at Ford Credit since August of 2021 on mainly two products, Non-Vehicle Asset Financing and the Commercial Line of Credit Application. Both products were started since my joining of the team and have received multiple accolades and both products continue to be expanded further. Our team practices Extreme Programming and TDD.
+                                    </Typography>
+                                </CardContent>
+                            </div>
+                        </div>
+                        <CardActions>
+                            <Tooltip
+                                placement='left'
+                                title='Links'
+                            >
+                                <IconButton
+                                    className={clsx(classes.expand, {
+                                        [classes.expandOpen]: sixExpand,
+                                    })}
+                                    onClick={handleSixExpand}
+                                    aria-expanded={sixExpand}
+                                    aria-label="links"
+                                ><ExpandMoreIcon /></IconButton>
+                            </Tooltip>
+                        </CardActions>
+                        <Collapse in={sixExpand} timeout="auto" unmountOnExit>
+                            <CardContent>
+                                <Typography variant="body1" style={{ color: 'white' }}>Company Site: <a className='cardLink' href='https://Ford.com'>Ford.com</a></Typography>
+                            </CardContent>
+                        </Collapse>
+                    </Card>
+                </div>
+                <div className='flex p-6'>
+                    <Card
+                        style={{ backgroundColor: '#a6acba', width: '85%', margin: '0 auto' }}
+                        raised
+                    >
+                        <CardHeader
+                            style={{ color: 'white' }}
                             title='Hygieia | Jan 2021 | Full Stack Developer'
-                            subheader='NODE | EXPRESS | KNEX | REACT'
+                            subheader='NODE | REACT'
                         />
                         <div className='flex justify-around align-center'>
                             <div className='w-1/2 text-center'>
@@ -97,7 +145,7 @@ const ProExp = () => {
                         </CardActions>
                         <Collapse in={sixExpand} timeout="auto" unmountOnExit>
                             <CardContent>
-                                <Typography variant="body1" style={{ color: 'white' }}>Company Site: <a className='cardLink' href='https://hygieia.com/'>hygieia.com/</a></Typography>
+                                <Typography variant="body1" style={{ color: 'white' }}>Company Site: <a className='cardLink' href='https://hygieia.com/'>hygieia.com</a></Typography>
                             </CardContent>
                         </Collapse>
                     </Card>
@@ -110,7 +158,7 @@ const ProExp = () => {
                         <CardHeader
                             style={{ color: 'white' }}
                             title='Bridges To Prosperity | Oct 2020 | Full Stack Developer'
-                            subheader='NODE | EXPRESS | JEST | REACT | ANT DESIGN | MATERIAL UI | MAPBOX | PLOTLY'
+                            subheader='NODE | JEST | REACT | ANT DESIGN | MATERIAL UI | MAPBOX | PLOTLY'
                         />
                         <div className='flex justify-around align-center'>
                             <div className='w-1/2 text-center'>
