@@ -40,24 +40,8 @@ const Projects = () => {
     const [fiveExpand, setFiveExpand] = useState(false);
     const [sixExpand, setSixExpand] = useState(false);
 
-
-    const handleTwoExpand = () => {
-        setTwoExpand(!twoExpand)
-    }
-    const handleOneExpand = () => {
-        setOneExpand(!oneExpand)
-    }
-    const handleThreeExpand = () => {
-        setThreeExpand(!threeExpand)
-    }
-    const handleFourExpand = () => {
-        setFourExpand(!fourExpand)
-    }
-    const handleFiveExpand = () => {
-        setFiveExpand(!fiveExpand)
-    }
-    const handleSixExpand = () => {
-        setSixExpand(!sixExpand)
+    const handleExpand = (expand, setExpand) => {
+        setExpand(!expand)
     }
 
     return (
@@ -97,7 +81,7 @@ const Projects = () => {
                                         className={clsx(classes.expand, {
                                             [classes.expandOpen]: oneExpand,
                                         })}
-                                        onClick={handleOneExpand}
+                                        onClick={() => handleExpand(oneExpand, setOneExpand)}
                                         aria-expanded={oneExpand}
                                         aria-label="links"
                                     ><ExpandMoreIcon /></IconButton>
@@ -143,7 +127,7 @@ const Projects = () => {
                                         className={clsx(classes.expand, {
                                             [classes.expandOpen]: twoExpand,
                                         })}
-                                        onClick={handleTwoExpand}
+                                        onClick={() => handleExpand(twoExpand, setTwoExpand)}
                                         aria-expanded={twoExpand}
                                         aria-label="links"
                                     ><ExpandMoreIcon /></IconButton>
@@ -188,7 +172,7 @@ const Projects = () => {
                                         className={clsx(classes.expand, {
                                             [classes.expandOpen]: threeExpand,
                                         })}
-                                        onClick={handleThreeExpand}
+                                        onClick={() => handleExpand(threeExpand, setThreeExpand)}
                                         aria-expanded={threeExpand}
                                         aria-label="links"
                                     ><ExpandMoreIcon /></IconButton>
@@ -234,7 +218,7 @@ const Projects = () => {
                                         className={clsx(classes.expand, {
                                             [classes.expandOpen]: fourExpand,
                                         })}
-                                        onClick={handleFourExpand}
+                                        onClick={() => handleExpand(fourExpand, setFourExpand)}
                                         aria-expanded={fourExpand}
                                         aria-label="links"
                                     ><ExpandMoreIcon /></IconButton>
@@ -280,7 +264,7 @@ const Projects = () => {
                                         className={clsx(classes.expand, {
                                             [classes.expandOpen]: fiveExpand,
                                         })}
-                                        onClick={handleFiveExpand}
+                                        onClick={() => handleExpand(fiveExpand, setFiveExpand)}
                                         aria-expanded={fiveExpand}
                                         aria-label="links"
                                     ><ExpandMoreIcon /></IconButton>
@@ -326,7 +310,7 @@ const Projects = () => {
                                         className={clsx(classes.expand, {
                                             [classes.expandOpen]: sixExpand,
                                         })}
-                                        onClick={handleSixExpand}
+                                        onClick={() => handleExpand(sixExpand, setSixExpand)}
                                         aria-expanded={sixExpand}
                                         aria-label="links"
                                     ><ExpandMoreIcon /></IconButton>
