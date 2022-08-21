@@ -35,6 +35,7 @@ const ProExp = () => {
     const [sixExpand, setSixExpand] = useState(false);
     const [sevenExpand, setSevenExpand] = useState(false);
     const [eightExpand, setEightExpand] = useState(false);
+    const [nineExpand, setNineExpand] = useState(false);
 
     const handleSixExpand = () => {
         setSixExpand(!sixExpand)
@@ -48,6 +49,9 @@ const ProExp = () => {
         setEightExpand(!eightExpand)
     }
 
+    const handleNineExpand = () => {
+        setNineExpand(!nineExpand)
+    }
 
 
     return (
@@ -69,7 +73,7 @@ const ProExp = () => {
                                 <CardMedia
                                     className={classes.media}
                                     image={require('../Images/Ford.jpg')}
-                                    title='Hygieia'
+                                    title='Ford'
                                 />
                             </div>
                             <div className='w-1/2 text-center'>
@@ -87,15 +91,15 @@ const ProExp = () => {
                             >
                                 <IconButton
                                     className={clsx(classes.expand, {
-                                        [classes.expandOpen]: sixExpand,
+                                        [classes.expandOpen]: nineExpand,
                                     })}
-                                    onClick={handleSixExpand}
-                                    aria-expanded={sixExpand}
+                                    onClick={handleNineExpand}
+                                    aria-expanded={nineExpand}
                                     aria-label="links"
                                 ><ExpandMoreIcon /></IconButton>
                             </Tooltip>
                         </CardActions>
-                        <Collapse in={sixExpand} timeout="auto" unmountOnExit>
+                        <Collapse in={nineExpand} timeout="auto" unmountOnExit>
                             <CardContent>
                                 <Typography variant="body1" style={{ color: 'white' }}>Company Site: <a className='cardLink' href='https://Ford.com'>Ford.com</a></Typography>
                             </CardContent>
