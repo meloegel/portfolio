@@ -11,6 +11,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import CardActions from '@material-ui/core/CardActions';
 import Collapse from '@material-ui/core/Collapse';
 import Tooltip from '@material-ui/core/Tooltip';
+import ProExpCard from './proExpCard';
 
 const useStyles = makeStyles((theme) => ({
     media: {
@@ -58,54 +59,17 @@ const ProExp = () => {
         <div className='m-auto relative text-center mt-6 bg-gray-500 rounded-3xl p-2 w-10/12' id='proExpo'>
             <h3><i class="fas fa-user-tie"></i> Professional Experience <i class="fas fa-user-tie"></i></h3>
             <div>
-                <div className='flex p-6'>
-                    <Card
-                        style={{ backgroundColor: '#a6acba', width: '85%', margin: '0 auto' }}
-                        raised
-                    >
-                        <CardHeader
-                            style={{ color: 'white' }}
-                            title='Ford Motor Company | Aug 2021 - Present | Full Stack Developer'
-                            subheader='KOTLIN | JAVA | REACT'
-                        />
-                        <div className='flex justify-around align-center'>
-                            <div className='w-1/2 text-center'>
-                                <CardMedia
-                                    className={classes.media}
-                                    image={require('../Images/Ford.jpg')}
-                                    title='Ford'
-                                />
-                            </div>
-                            <div className='w-1/2 text-center'>
-                                <CardContent>
-                                    <Typography variant="body1" style={{ color: 'white', fontSize: '1rem' }}>
-                                        I Have been working as a software engineer at Ford Credit since August of 2021 on mainly two products, Non-Vehicle Asset Financing and the Commercial Line of Credit Application. Both products were started since my joining of the team and have received multiple accolades and both products continue to be expanded further. Our team practices Extreme Programming and TDD.
-                                    </Typography>
-                                </CardContent>
-                            </div>
-                        </div>
-                        <CardActions>
-                            <Tooltip
-                                placement='left'
-                                title='Links'
-                            >
-                                <IconButton
-                                    className={clsx(classes.expand, {
-                                        [classes.expandOpen]: nineExpand,
-                                    })}
-                                    onClick={handleNineExpand}
-                                    aria-expanded={nineExpand}
-                                    aria-label="links"
-                                ><ExpandMoreIcon /></IconButton>
-                            </Tooltip>
-                        </CardActions>
-                        <Collapse in={nineExpand} timeout="auto" unmountOnExit>
-                            <CardContent>
-                                <Typography variant="body1" style={{ color: 'white' }}>Company Site: <a className='cardLink' href='https://Ford.com'>Ford.com</a></Typography>
-                            </CardContent>
-                        </Collapse>
-                    </Card>
-                </div>
+                <ProExpCard 
+                cardHeaderTitle={'Ford Motor Company | Aug 2021 - Present | Full Stack Developer'}
+                cardHeaderSubHeader={'KOTLIN | JAVA | REACT'}
+                image={require('../../Images/Ford.jpg')}
+                imageTitle={'Ford'}
+                cardContentBody={" I Have been working as a software engineer at Ford Credit since August of 2021 on mainly two products, Non-Vehicle Asset Financing and the Commercial Line of Credit Application. Both products were started since my joining of the team and have received multiple accolades and both products continue to be expanded further. Our team practices Extreme Programming and TDD."}
+                expand={nineExpand}
+                handleExpand={handleNineExpand}
+                site={"https://Ford.com"}
+                siteDisplay={"Ford.com"}
+                />
                 <div className='flex p-6'>
                     <Card
                         style={{ backgroundColor: '#a6acba', width: '85%', margin: '0 auto' }}
@@ -120,7 +84,7 @@ const ProExp = () => {
                             <div className='w-1/2 text-center'>
                                 <CardMedia
                                     className={classes.media}
-                                    image={require('../Images/Hygieia.PNG')}
+                                    image={require('../../Images/Hygieia.PNG')}
                                     title='Hygieia'
                                 />
                             </div>
@@ -169,7 +133,7 @@ const ProExp = () => {
                                 <a href='https://github.com/meloegel/bridges-to-prosperity-fe-a'>
                                     <CardMedia
                                         className={classes.media}
-                                        image={require('../Images/BTP.PNG')}
+                                        image={require('../../Images/BTP.PNG')}
                                         title='Bridges To Prosperity'
                                     />
                                 </a>
@@ -221,7 +185,7 @@ const ProExp = () => {
                                 <a href='https://ultramikro.vercel.app/'>
                                     <CardMedia
                                         className={classes.media}
-                                        image={require('../Images/Ultramikro.PNG')}
+                                        image={require('../../Images/Ultramikro.PNG')}
                                         title='Ultramikro'
                                     />
                                 </a>

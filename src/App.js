@@ -7,7 +7,7 @@ import About from './components/about'
 import Skills from './components/skills'
 import Qualifications from './components/qualifications'
 import Contact from './components/contact'
-import ProExp from './components/proExp'
+import ProExp from './components/professionalExperience/proExp'
 
 function App() {
 
