@@ -30,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 
-export default function ProExpCard({cardHeaderTitle, cardHeaderSubHeader, image, imageTitle, cardContentBody, expand, handleExpand, site, siteDisplay }) {
+export default function ProExpCard({cardHeaderTitle, cardHeaderSubHeader, image, imageTitle, cardContentBody, expand, handleExpand, site, siteDisplay, gitHub, gitHubDisplay }) {
     const classes = useStyles();
 
 
@@ -79,6 +79,7 @@ export default function ProExpCard({cardHeaderTitle, cardHeaderSubHeader, image,
         <Collapse in={expand} timeout="auto" unmountOnExit>
             <CardContent>
                 <Typography variant="body1" style={{ color: 'white' }}>Company Site: <a className='cardLink' href={site}>{siteDisplay}</a></Typography>
+                {gitHub && <Typography variant="body1" style={{ color: 'white' }}>GitHub BE: <a className='cardLink' href={gitHub}>{gitHubDisplay}</a></Typography>}
             </CardContent>
         </Collapse>
     </Card>

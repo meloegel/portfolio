@@ -59,117 +59,41 @@ const ProExp = () => {
         <div className='m-auto relative text-center mt-6 bg-gray-500 rounded-3xl p-2 w-10/12' id='proExpo'>
             <h3><i class="fas fa-user-tie"></i> Professional Experience <i class="fas fa-user-tie"></i></h3>
             <div>
-                <ProExpCard 
-                cardHeaderTitle={'Ford Motor Company | Aug 2021 - Present | Full Stack Developer'}
-                cardHeaderSubHeader={'KOTLIN | JAVA | REACT'}
-                image={require('../../Images/Ford.jpg')}
-                imageTitle={'Ford'}
-                cardContentBody={" I Have been working as a software engineer at Ford Credit since August of 2021 on mainly two products, Non-Vehicle Asset Financing and the Commercial Line of Credit Application. Both products were started since my joining of the team and have received multiple accolades and both products continue to be expanded further. Our team practices Extreme Programming and TDD."}
-                expand={nineExpand}
-                handleExpand={handleNineExpand}
-                site={"https://Ford.com"}
-                siteDisplay={"Ford.com"}
+                <ProExpCard
+                    cardHeaderTitle={'Ford Motor Company | Aug 2021 - Present | Full Stack Developer'}
+                    cardHeaderSubHeader={'KOTLIN | JAVA | REACT'}
+                    image={require('../../Images/Ford.jpg')}
+                    imageTitle={'Ford'}
+                    cardContentBody={" I Have been working as a software engineer at Ford Credit since August of 2021 on mainly two products, Non-Vehicle Asset Financing and the Commercial Line of Credit Application. Both products were started since my joining of the team and have received multiple accolades and both products continue to be expanded further. Our team practices Extreme Programming and TDD."}
+                    expand={nineExpand}
+                    handleExpand={handleNineExpand}
+                    site={"https://Ford.com"}
+                    siteDisplay={"Ford.com"}
                 />
-                <div className='flex p-6'>
-                    <Card
-                        style={{ backgroundColor: '#a6acba', width: '85%', margin: '0 auto' }}
-                        raised
-                    >
-                        <CardHeader
-                            style={{ color: 'white' }}
-                            title='Hygieia | Jan 2021 | Full Stack Developer'
-                            subheader='NODE | REACT'
-                        />
-                        <div className='flex justify-around align-center'>
-                            <div className='w-1/2 text-center'>
-                                <CardMedia
-                                    className={classes.media}
-                                    image={require('../../Images/Hygieia.PNG')}
-                                    title='Hygieia'
-                                />
-                            </div>
-                            <div className='w-1/2 text-center'>
-                                <CardContent>
-                                    <Typography variant="body1" style={{ color: 'white', fontSize: '1rem' }}>
-                                        Contracted to consult with Hygieia to develop and deploy a web form for a patient to assign their benefits to Hygieia. Integrate the new AOB form with existing intake user flow currently deployed. Modify a NODE web service to persist the data gathered by physicians in a PDF as well as a MSSQL database deployed on Hygieia's AWS container. Manage and deploy source code from a GitHub account owned by Hygieia, Inc. and deploy website to Hygieia’s web servers.
-                                    </Typography>
-                                </CardContent>
-                            </div>
-                        </div>
-                        <CardActions>
-                            <Tooltip
-                                placement='left'
-                                title='Links'
-                            >
-                                <IconButton
-                                    className={clsx(classes.expand, {
-                                        [classes.expandOpen]: sixExpand,
-                                    })}
-                                    onClick={handleSixExpand}
-                                    aria-expanded={sixExpand}
-                                    aria-label="links"
-                                ><ExpandMoreIcon /></IconButton>
-                            </Tooltip>
-                        </CardActions>
-                        <Collapse in={sixExpand} timeout="auto" unmountOnExit>
-                            <CardContent>
-                                <Typography variant="body1" style={{ color: 'white' }}>Company Site: <a className='cardLink' href='https://hygieia.com/'>hygieia.com</a></Typography>
-                            </CardContent>
-                        </Collapse>
-                    </Card>
-                </div>
-                <div className='flex p-6'>
-                    <Card
-                        style={{ backgroundColor: '#a6acba', width: '85%', margin: '0 auto' }}
-                        raised
-                    >
-                        <CardHeader
-                            style={{ color: 'white' }}
-                            title='Bridges To Prosperity | Oct 2020 | Full Stack Developer'
-                            subheader='NODE | JEST | REACT | ANT DESIGN | MATERIAL UI | MAPBOX | PLOTLY'
-                        />
-                        <div className='flex justify-around align-center'>
-                            <div className='w-1/2 text-center'>
-                                <a href='https://github.com/meloegel/bridges-to-prosperity-fe-a'>
-                                    <CardMedia
-                                        className={classes.media}
-                                        image={require('../../Images/BTP.PNG')}
-                                        title='Bridges To Prosperity'
-                                    />
-                                </a>
-                            </div>
-                            <div className='w-1/2 text-center'>
-                                <CardContent>
-                                    <Typography variant="body1" style={{ color: 'white', fontSize: '1rem' }}>
-                                        Worked on a cross-functional team of 4 data scientists and 4 web developers over 4 weeks to display data generated by the Data Science team on a map for the stakeholder to better be able to evaluate new and existing bridge site locations. Added topography and different icons to the map functionality. Integrated new output from our data scientist’s model into our backend API service. Updated the styling of the app to match the current web site. With my personal updates of adding topography and adding graphs with PlotlyJs our version of the project was chosen to continue to build on by the stakeholder.
-                                    </Typography>
-                                </CardContent>
-                            </div>
-                        </div>
-                        <CardActions>
-                            <Tooltip
-                                placement='left'
-                                title='Links'
-                            >
-                                <IconButton
-                                    className={clsx(classes.expand, {
-                                        [classes.expandOpen]: sixExpand,
-                                    })}
-                                    onClick={handleSevenExpand}
-                                    aria-expanded={sevenExpand}
-                                    aria-label="links"
-                                ><ExpandMoreIcon /></IconButton>
-                            </Tooltip>
-                        </CardActions>
-                        <Collapse in={sevenExpand} timeout="auto" unmountOnExit>
-                            <CardContent>
-                                <Typography variant="body1" style={{ color: 'white' }}>GitHub FE: <a className='cardLink' href='https://github.com/meloegel/bridges-to-prosperity-fe-a'>github.com/meloegel/bridges-to-prosperity-fe-a</a></Typography>
-                                <Typography variant="body1" style={{ color: 'white' }}>GitHub BE: <a className='cardLink' href='https://github.com/meloegel/bridges-to-prosperity-be-a/tree/readme-loegel'>github.com/meloegel/bridges-to-prosperity-be-a/tree/readme-loegel</a></Typography>
-                                <Typography variant="body1" style={{ color: 'white' }}>Company Site: <a className='cardLink' href='https://www.bridgestoprosperity.org/'>bridgestoprosperity.org/</a></Typography>
-                            </CardContent>
-                        </Collapse>
-                    </Card>
-                </div>
+                <ProExpCard
+                    cardHeaderTitle={'Hygieia | Jan 2021 | Full Stack Developer'}
+                    cardHeaderSubHeader={'NODE | REACT'}
+                    image={require('../../Images/Hygieia.PNG')}
+                    imageTitle={'Hygieia'}
+                    cardContentBody={" Contracted to consult with Hygieia to develop and deploy a web form for a patient to assign their benefits to Hygieia. Integrate the new AOB form with existing intake user flow currently deployed. Modify a NODE web service to persist the data gathered by physicians in a PDF as well as a MSSQL database deployed on Hygieia's AWS container. Manage and deploy source code from a GitHub account owned by Hygieia, Inc. and deploy website to Hygieia’s web servers."}
+                    expand={sixExpand}
+                    handleExpand={handleSixExpand}
+                    site={"https://hygieia.com/"}
+                    siteDisplay={"hygieia.com"}
+                />
+                <ProExpCard
+                    cardHeaderTitle={'Bridges To Prosperity | Oct 2020 | Full Stack Developer'}
+                    cardHeaderSubHeader={'NODE | JEST | REACT | ANT DESIGN | MATERIAL UI | MAPBOX | PLOTLY'}
+                    image={require('../../Images/BTP.PNG')}
+                    imageTitle={'Bridges To Prosperity'}
+                    cardContentBody={"Worked on a cross-functional team of 4 data scientists and 4 web developers over 4 weeks to display data generated by the Data Science team on a map for the stakeholder to better be able to evaluate new and existing bridge site locations. Added topography and different icons to the map functionality. Integrated new output from our data scientist’s model into our backend API service. Updated the styling of the app to match the current web site. With my personal updates of adding topography and adding graphs with PlotlyJs our version of the project was chosen to continue to build on by the stakeholder."}
+                    expand={sevenExpand}
+                    handleExpand={handleSevenExpand}
+                    site={"https://www.bridgestoprosperity.org/"}
+                    siteDisplay={"bridgestoprosperity.org"}
+                    gitHub={"https://github.com/meloegel/bridges-to-prosperity-be-a/tree/readme-loegel"}
+                    gitHubDisplay={"github.com/meloegel/bridges-to-prosperity-be-a/tree/readme-loegel"}
+                />
                 <div className='flex p-6 text-center'>
                     <Card
                         style={{ backgroundColor: '#a6acba', width: '85%', margin: '0 auto' }}
