@@ -30,59 +30,58 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 
-export default function ProExpCard({cardHeaderTitle, cardHeaderSubHeader, image, imageTitle, cardContentBody, expand, handleExpand, site, siteDisplay, gitHub, gitHubDisplay }) {
+export default function ProExpCard({ cardHeaderTitle, cardHeaderSubHeader, image, imageTitle, cardContentBody, expand, handleExpand, site, siteDisplay, gitHub, gitHubDisplay }) {
     const classes = useStyles();
 
-
- return (
-    <div className='flex p-6'>
-    <Card
-        style={{ backgroundColor: '#a6acba', width: '85%', margin: '0 auto' }}
-        raised
-    >
-        <CardHeader
-            style={{ color: 'white' }}
-            title={cardHeaderTitle}
-            subheader={cardHeaderSubHeader}
-        />
-        <div className='flex justify-around align-center'>
-            <div className='w-1/2 text-center'>
-                <CardMedia
-                    className={classes.media}
-                    image={image}
-                    title={imageTitle}
-                />
-            </div>
-            <div className='w-1/2 text-center'>
-                <CardContent>
-                    <Typography variant="body1" style={{ color: 'white', fontSize: '1rem' }}>
-                        {cardContentBody}
-                    </Typography>
-                </CardContent>
-            </div>
-        </div>
-        <CardActions>
-            <Tooltip
-                placement='left'
-                title='Links'
+    return (
+        <div className='flex p-6'>
+            <Card
+                style={{ backgroundColor: '#a6acba', width: '85%', margin: '0 auto' }}
+                raised
             >
-                <IconButton
-                    className={clsx(classes.expand, {
-                        [classes.expandOpen]: expand,
-                    })}
-                    onClick={handleExpand}
-                    aria-expanded={expand}
-                    aria-label="links"
-                ><ExpandMoreIcon /></IconButton>
-            </Tooltip>
-        </CardActions>
-        <Collapse in={expand} timeout="auto" unmountOnExit>
-            <CardContent>
-                <Typography variant="body1" style={{ color: 'white' }}>Company Site: <a className='cardLink' href={site}>{siteDisplay}</a></Typography>
-                {gitHub && <Typography variant="body1" style={{ color: 'white' }}>GitHub BE: <a className='cardLink' href={gitHub}>{gitHubDisplay}</a></Typography>}
-            </CardContent>
-        </Collapse>
-    </Card>
-</div>
- )
+                <CardHeader
+                    style={{ color: 'white' }}
+                    title={cardHeaderTitle}
+                    subheader={cardHeaderSubHeader}
+                />
+                <div className='flex justify-around align-center'>
+                    <div className='w-1/2 text-center'>
+                        <CardMedia
+                            className={classes.media}
+                            image={image}
+                            title={imageTitle}
+                        />
+                    </div>
+                    <div className='w-1/2 text-center'>
+                        <CardContent>
+                            <Typography variant="body1" style={{ color: 'white', fontSize: '1rem' }}>
+                                {cardContentBody}
+                            </Typography>
+                        </CardContent>
+                    </div>
+                </div>
+                <CardActions>
+                    <Tooltip
+                        placement='left'
+                        title='Links'
+                    >
+                        <IconButton
+                            className={clsx(classes.expand, {
+                                [classes.expandOpen]: expand,
+                            })}
+                            onClick={handleExpand}
+                            aria-expanded={expand}
+                            aria-label="links"
+                        ><ExpandMoreIcon /></IconButton>
+                    </Tooltip>
+                </CardActions>
+                <Collapse in={expand} timeout="auto" unmountOnExit>
+                    <CardContent>
+                        <Typography variant="body1" style={{ color: 'white' }}>Company Site: <a className='cardLink' href={site}>{siteDisplay}</a></Typography>
+                        {gitHub && <Typography variant="body1" style={{ color: 'white' }}>GitHub BE: <a className='cardLink' href={gitHub}>{gitHubDisplay}</a></Typography>}
+                    </CardContent>
+                </Collapse>
+            </Card>
+        </div>
+    )
 }
