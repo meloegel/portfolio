@@ -6,7 +6,7 @@ const PrevWork = () => {
     return (
         <div>
             <div>
-                <h3><i class="fas fa-building"></i> Previous Work <i class="fas fa-building"></i></h3>
+                <h3><i class="fas fa-building"/> Previous Work <i class="fas fa-building"/></h3>
                 <div className='bg-zinc-700 rounded-3xl p-2 w-10/12 my-2 mx-auto'>
                     <h4 className="text-white">Construction Manager</h4>
                     <h4 className="text-white">Collaborative Advantage Marketing - Detroit MI 2019</h4>
