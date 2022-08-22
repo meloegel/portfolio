@@ -73,7 +73,7 @@ export default function ProjectCard({ cardHeaderTitle, cardHeaderSubHeader, imag
                 </CardActions>
                 <Collapse in={expand} timeout="auto" unmountOnExit>
                     <CardContent>
-                        <Typography variant="body1" style={{ color: 'white' }}>Link: <a className='cardLink' href={site}>{siteDisplay}</a></Typography>
+                        {siteDisplay && <Typography variant="body1" style={{ color: 'white' }}>Link: <a className='cardLink' href={site}>{siteDisplay}</a></Typography>}
                         {gitHub && <Typography variant="body1" style={{ color: 'white' }}>GitHub: <a className='cardLink' href={gitHub}>{gitHubDisplay}</a></Typography>}
                     </CardContent>
                 </Collapse>
