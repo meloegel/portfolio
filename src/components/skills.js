@@ -5,7 +5,7 @@ const Skills = () => {
 
     return (
         <div className="w-full text-center mb-1.5">
-            <div className='hvr-grow relative bg-gray-500 p-1.5 rounded-r-3xl text-left mx-auto my-8 w-10/12'>
+            <div className='hvr-grow relative bg-gray-500 p-1.5 rounded-3xl text-left mx-auto my-8 w-11/12'>
                 <h3 ><i class="fas fa-medal"></i> Skills <i class="fas fa-medal"></i></h3>
                 <div className="flex mb-8 flex-col md:flex-row">
                     <div className="m-auto text-white text-center p-1 md:p-0 ">

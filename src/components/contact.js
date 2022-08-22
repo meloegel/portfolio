@@ -4,7 +4,7 @@ import React from 'react'
 const Contact = () => {
     return (
         <div className='hvr-grow w-full mt-8 mb-3' id='contactDiv' >
-            <div className="contact p-4 text-white relative m-auto bg-gray-500 rounded-3xl p-2 w-10/12 text-center">
+            <div className="contact p-4 text-white relative m-auto bg-gray-500 rounded-3xl w-11/12 text-center">
                 <h3><i class="fas fa-id-card"></i> Contact <i class="fas fa-id-card"></i></h3>
                 <p>Email <i class="fas fa-envelope-square"></i>: <a href='mailto:Meloegel@gmail.com'>Meloegel@gmail.com</a></p>
                 <p>LinkedIn <i class="fab fa-linkedin"></i>: <a href='https://www.linkedin.com/in/mark-loegel/'>https://www.linkedin.com/in/mark-loegel</a></p>

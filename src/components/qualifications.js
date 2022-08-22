@@ -11,7 +11,7 @@ const Qualifications = (key) => {
 
     return (
         <div className='hvr-grow w-full text-center'>
-            <div className="m-auto text-center relative my-2 bg-gray-500 rounded-3xl p-1.5 w-10/12">
+            <div className="m-auto text-center relative my-2 bg-gray-500 rounded-3xl p-1.5 w-11/12">
                 <div className='flex justify-evenly flex-col md:flex-row'>
                     <div>
                         <h3><i class="fas fa-laptop-code"></i> Education: Lambda School <i class="fas fa-laptop-code"></i></h3>

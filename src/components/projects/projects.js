@@ -47,7 +47,7 @@ const Projects = () => {
 
     return (
         <div className='hvr-grow w-full text-center'>
-            <div className='m-auto text-center relative mt-6 bg-gray-500 rounded-3xl p-1.5 w-10/12'>
+            <div className='m-auto text-center relative mt-6 bg-gray-500 rounded-3xl p-1.5 w-11/12'>
                 <h3><i class="fas fa-folder-open"></i> Projects <i class="fas fa-folder-open"></i></h3>
                 <div className="flex flex-wrap items-center justify-center w-11/12 m-auto text-white p-4">
                     <ProjectCard
@@ -63,97 +63,30 @@ const Projects = () => {
                         gitHub={'https://github.com/meloegel/Game_of_life'}
                         gitHubDisplay={'github.com/meloegel/Game_of_life'}
                     />
-                    <div className='flex p-6'>
-                        <Card
-                            style={{ backgroundColor: '#a6acba' }}
-                            className='bg-gray-400 w-80'
-                            raised
-                        >
-                            <CardHeader
-                                style={{ color: 'white' }}
-                                title='How-To BE | June 2020 Back End Developer'
-                                subheader='NODE | EXPRESS | POSTGRESSQL | SQLITE3 | JEST'
-                            />
-                            <a href=' https://github.com/BW-how-2/Back-End'>
-                                <CardMedia
-                                    className={classes.media}
-                                    image={require('../../Images/HowToImage.PNG')}
-                                    title='How-To BE'
-                                />
-                            </a>
-                            <CardContent>
-                                <Typography variant="body1" style={{ color: 'white' }}>
-                                    Worked on this project with many different cohorts in a group of 6. I was responsible for and created the entire back-end of the project. This project was my favorite project I worked on while at Lambda. I loved learning how to write an elaborate and well documented Readme.
-                                </Typography>
-                            </CardContent>
-                            <CardActions disableSpacing>
-                                <Tooltip
-                                    placement='left'
-                                    title='Links'
-                                >
-                                    <IconButton
-                                        className={clsx(classes.expand, {
-                                            [classes.expandOpen]: twoExpand,
-                                        })}
-                                        onClick={() => handleExpand(twoExpand, setTwoExpand)}
-                                        aria-expanded={twoExpand}
-                                        aria-label="links"
-                                    ><ExpandMoreIcon /></IconButton>
-                                </Tooltip>
-                            </CardActions>
-                            <Collapse in={twoExpand} timeout="auto" unmountOnExit>
-                                <CardContent>
-                                    <Typography variant="body1" style={{ color: 'white' }}>GitHub: <a className='text-white' href=' https://github.com/BW-how-2/Back-End'>github.com/BW-how-2/Back-End</a></Typography>
-                                </CardContent>
-                            </Collapse>
-                        </Card>
-                    </div>
-                    <div className='flex p-6'>
-                        <Card
-                            style={{ backgroundColor: '#a6acba' }}
-                            className='w-80 bg-gray-500'
-                            raised
-                        >
-                            <CardHeader
-                                style={{ color: 'white' }}
-                                title='Cube Timer | Oct 2020 | Front End Developer'
-                                subheader='REACT | SASS | MATERIAL UI'
-                            />
-                            <a href='https://cube-timer.vercel.app/'>
-                                <CardMedia
-                                    className={classes.media}
-                                    image={require('../../Images/CubeTimer.PNG')}
-                                    title='Cube Timer'
-                                />
-                            </a>
-                            <CardContent>
-                                <Typography variant="body1" style={{ color: 'white' }}>
-                                    Cube Timer is an aid for timing the solving of Rubik's cubes. I created CubeTimer not only because I love solving Rubix cubes but also because I love programming. This was one of the first projects I created after graduating Lambda, the project was made over a couple days in Oct 2020.
-                                </Typography>
-                            </CardContent>
-                            <CardActions>
-                                <Tooltip
-                                    placement='left'
-                                    title='Links'
-                                >
-                                    <IconButton
-                                        className={clsx(classes.expand, {
-                                            [classes.expandOpen]: threeExpand,
-                                        })}
-                                        onClick={() => handleExpand(threeExpand, setThreeExpand)}
-                                        aria-expanded={threeExpand}
-                                        aria-label="links"
-                                    ><ExpandMoreIcon /></IconButton>
-                                </Tooltip>
-                            </CardActions>
-                            <Collapse in={threeExpand} timeout="auto" unmountOnExit>
-                                <CardContent>
-                                    <Typography variant="body1" style={{ color: 'white' }}>Link: <a className='text-white' href='https://cube-timer.vercel.app/'>cube-timer.vercel.app/</a></Typography>
-                                    <Typography variant="body1" style={{ color: 'white' }}>GitHub: <a className='text-white' href='https://github.com/meloegel/Cube-Timer'>github.com/meloegel/Cube-Timer</a></Typography>
-                                </CardContent>
-                            </Collapse>
-                        </Card>
-                    </div>
+                    <ProjectCard
+                        cardHeaderTitle={'How-To BE | June 2020 Back End Developer'}
+                        cardHeaderSubHeader={'NODE | EXPRESS | POSTGRESSQL | SQLITE3 | JEST'}
+                        image={require('../../Images/HowToImage.PNG')}
+                        imageTitle={'How-To BE'}
+                        cardContentBody={"Worked on this project with many different cohorts in a group of 6. I was responsible for and created the entire back-end of the project. This project was my favorite project I worked on while at Lambda. I loved learning how to write an elaborate and well documented Readme."}
+                        expand={twoExpand}
+                        handleExpand={() => handleExpand(twoExpand, setTwoExpand)}
+                        site={'https://github.com/BW-how-2/Back-End'}
+                        siteDisplay={"github.com/BW-how-2/Back-End"}
+                    />
+                    <ProjectCard
+                        cardHeaderTitle={'Cube Timer | Oct 2020 | Front End Developer'}
+                        cardHeaderSubHeader={'REACT | SASS | MATERIAL UI'}
+                        image={require('../../Images/CubeTimer.PNG')}
+                        imageTitle={'Cube Timer'}
+                        cardContentBody={"Cube Timer is an aid for timing the solving of Rubik's cubes. I created CubeTimer not only because I love solving Rubix cubes but also because I love programming. This was one of the first projects I created after graduating Lambda, the project was made over a couple days in Oct 2020."}
+                        expand={threeExpand}
+                        handleExpand={() => handleExpand(threeExpand, setThreeExpand)}
+                        site={'https://cube-timer.vercel.app/'}
+                        siteDisplay={'cube-timer.vercel.app'}
+                        gitHub={'https://github.com/meloegel/Cube-Timer'}
+                        gitHubDisplay={'github.com/meloegel/Cube-Timer'}
+                    />
                     <div className='flex p-6'>
                         <Card
                             style={{ backgroundColor: '#a6acba' }}

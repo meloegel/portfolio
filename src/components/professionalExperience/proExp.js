@@ -12,7 +12,7 @@ const ProExp = () => {
     }
 
     return (
-        <div className='m-auto relative text-center mt-6 bg-gray-500 rounded-3xl p-2 w-10/12' id='proExpo'>
+        <div className='m-auto relative text-center mt-6 bg-gray-500 rounded-3xl p-2 w-11/12' id='proExpo'>
             <h3><i class="fas fa-user-tie"></i> Professional Experience <i class="fas fa-user-tie"></i></h3>
             <div>
                 <ProExpCard
