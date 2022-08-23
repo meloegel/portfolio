@@ -20,9 +20,9 @@ const Projects = () => {
                 <h3>
                     <i class="fas fa-folder-open"></i> Projects <i class="fas fa-folder-open" />
                 </h3>
-                <div className="flex flex-wrap items-center justify-center w-11/12 m-auto text-white p-4 min-h-max gap-4">
+                <div className="flex flex-wrap items-center justify-center w-11/12 m-auto text-white p-4 min-h-max gap-4 my-4">
                     <ProjectCard
-                        cardHeaderTitle={'Game of Life | Aug 2020 Front End Developer'}
+                        cardHeaderTitle={'Game of Life | Aug 2020'}
                         cardHeaderSubHeader={'REACT| SASS | JEST'}
                         image={require('../../Images/GameOfLifePortfolio.PNG')}
                         imageTitle={'Game of Life'}
@@ -35,8 +35,8 @@ const Projects = () => {
                         gitHubDisplay={'github.com/meloegel/Game_of_life'}
                     />
                     <ProjectCard
-                        cardHeaderTitle={'How-To BE | June 2020 Back End Developer'}
-                        cardHeaderSubHeader={'NODE | EXPRESS | POSTGRESSQL | SQLITE3 | JEST'}
+                        cardHeaderTitle={'How-To BE | June 2020'}
+                        cardHeaderSubHeader={'NODE | EXPRESS | POSTGRESSQL'}
                         image={require('../../Images/HowToImage.PNG')}
                         imageTitle={'How-To BE'}
                         cardContentBody={"Worked on this project with many different cohorts in a group of 6. I was responsible for and created the entire back-end of the project. This project was my favorite project I worked on while at Lambda. I loved learning how to write an elaborate and well documented Readme."}
@@ -47,7 +47,7 @@ const Projects = () => {
                         gitHubDisplay={"github.com/BW-how-2/Back-End"}
                     />
                     <ProjectCard
-                        cardHeaderTitle={'Cube Timer | Oct 2020 | Front End Developer'}
+                        cardHeaderTitle={'Cube Timer | Oct 2020'}
                         cardHeaderSubHeader={'REACT | SASS | MATERIAL UI'}
                         image={require('../../Images/CubeTimer.PNG')}
                         imageTitle={'Cube Timer'}
@@ -60,10 +60,10 @@ const Projects = () => {
                         gitHubDisplay={'github.com/meloegel/Cube-Timer'}
                     />
                     <ProjectCard
-                        cardHeaderTitle={'NASA Photo of the Day | Oct 2020 | Front End Developer'}
+                        cardHeaderTitle={'NASA POTD | Oct 2020'}
                         cardHeaderSubHeader={'REACT | SASS | STYLED COMPONENTS'}
                         image={require('../../Images/NasaPOTD.PNG')}
-                        imageTitle={"NASA Photo of The Day"}
+                        imageTitle={"NASA Photo of The day"}
                         cardContentBody={"NASA Photo of the Day was created using the NASA public daily photo API. Each day NASA will have a different photo or video to display. This project was the first react project I created from scratch in Unit 3 at Lambda school, after graduating Lambda I updated before deploying this project."}
                         expand={fourExpand}
                         handleExpand={() => handleExpand(fourExpand, setFourExpand)}
@@ -73,7 +73,7 @@ const Projects = () => {
                         gitHubDisplay={"github.com/meloegel/nasa-photo-of-the-day"}
                     />
                     <ProjectCard
-                        cardHeaderTitle={'Run Tracker FE | Nov 2020 FULL STACK DEVELOPER'}
+                        cardHeaderTitle={'Run Tracker FE | Nov 2020'}
                         cardHeaderSubHeader={'REACT | SASS | MATERIAL UI | YUP | CYPRESS'}
                         image={require('../../Images/runTrackerFE.PNG')}
                         imageTitle={'Run Tracker FE'}
@@ -86,8 +86,8 @@ const Projects = () => {
                         gitHubDisplay={"github.com/meloegel/run-tracker-fe"}
                     />
                     <ProjectCard
-                        cardHeaderTitle={'Run Tracker BE | Nov 2020 | FULL STACK DEVELOPER'}
-                        cardHeaderSubHeader={'NODE | EXPRESS | KNEX | JEST | POSTGRESSQL | SQLITE3'}
+                        cardHeaderTitle={'Run Tracker BE | Nov 2020'}
+                        cardHeaderSubHeader={'NODE | EXPRESS | POSTGRESSQL'}
                         image={require('../../Images/runTrackerBE.PNG')}
                         imageTitle={'Run Tracker BE'}
                         cardContentBody={"I created Run Tracker because I have a passion for running as well as programming. Run Tracker keeps track of your run times and are able to post good runs to a main feed. Creating an account allows the user to view their runs, edit and delete runs and edit their profile."}

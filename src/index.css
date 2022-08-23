@@ -2,23 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-/* //Header */
-@media screen and (max-width: 376px) {
-  .MuiBreadcrumbs-ol {
-    display: flex;
-    justify-content: center;
-  }
-}
+/*  
+Fonts
+font-family: "Roboto", sans-serif; // Main Font
+font-family: "Oswald", sans-serif; // Title Font 
+*/
 
-.header {
-  text-shadow: 1px 1px 8px black;
-}
-
-/* // Global Styles // */
-
-/* // Fonts
-//  font-family: "Roboto", sans-serif; // Main Font
-//  font-family: "Oswald", sans-serif; // Title Font */
+/* Global Styles */
 
 html {
   background-color: white;
@@ -33,12 +23,6 @@ body {
 header {
   position: relative;
 }
-h3 {
-  text-align: center;
-  color: white;
-  font-family: "Roboto", sans-serif;
-  font-weight: 350;
-}
 h1 {
   font-family: "Oswald", sans-serif;
   font-weight: 800;
@@ -49,6 +33,20 @@ h2 {
   font-family: "Oswald", sans-serif;
   font-weight: 800;
   font-size: 2rem;
+}
+h3 {
+  text-align: center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 350;
+  font-size: 1.75rem;
+}
+h4 {
+  text-align: center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 350;
+  font-size: 1.2rem;
 }
 button {
   border-radius: 2rem;
@@ -62,7 +60,19 @@ p {
   color: white;
 }
 
-/* //React logo // */
+/* Header */
+
+.header {
+  text-shadow: 1px 1px 8px black;
+}
+
+/* Project */
+
+.headerFoo {
+  min-height: 675px;
+}
+
+/* React logo */
 
 @keyframes App-logo-spin {
   from {
@@ -86,5 +96,13 @@ p {
 @media screen and (max-width: 376px) {
   h2 {
     padding-top: 6rem;
+  }
+}
+
+/* Header */
+@media screen and (max-width: 376px) {
+  .MuiBreadcrumbs-ol {
+    display: flex;
+    justify-content: center;
   }
 }

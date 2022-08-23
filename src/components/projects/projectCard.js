@@ -33,9 +33,9 @@ export default function ProjectCard({ cardHeaderTitle, cardHeaderSubHeader, imag
     const classes = useStyles();
 
     return (
-        <div className='flex p-6'>
+        <div className='flex p-6 min-h-625'>
             <Card
-                className='w-80 bg-gray-500'
+                className='w-96 bg-gray-500 header2 min-h-full'
                 style={{ backgroundColor: '#a6acba' }}
                 raised
             >
@@ -51,12 +51,12 @@ export default function ProjectCard({ cardHeaderTitle, cardHeaderSubHeader, imag
                         title={imageTitle}
                     />
                 </a>
-                <CardContent>
-                    <Typography variant="body1" style={{ color: 'white' }}>
+                <CardContent className={"min-h-210"}>
+                    <Typography variant="body1" style={{ color: 'white', height: "100%" }}>
                         {cardContentBody}
                     </Typography>
                 </CardContent>
-                <CardActions>
+                <CardActions classes={"h-full flex items-end"}>
                     <Tooltip
                         placement='left'
                         title='Links'
