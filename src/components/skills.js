@@ -54,7 +54,7 @@ const Skills = () => {
                             <li>Cypress</li>
                             <li>Jest</li>
                             <li>Supertest</li>
-                            <li>React-Testing-Library</li>
+                            <li>React Testing Library</li>
                         </ul>
                     </div>
                 </div>
