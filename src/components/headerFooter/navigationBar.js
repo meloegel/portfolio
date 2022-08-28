@@ -8,9 +8,9 @@ export default function NavigationBar() {
                 <Typography color="white"> About <i class="fas fa-scroll" /></Typography></a>
             <a href="#proExpo">
                 <Typography color="white"> Professional Experience <i class="fas fa-user-tie" /></Typography></a>
-            <a href="#centerProjects">
+            <a href="#projects">
                 <Typography color="white"> Projects <i class="fas fa-folder-open" /></Typography></a>
-            <a href="#skillsDiv">
+            <a href="#skills">
                 <Typography color="white"> Skills <i class="fas fa-medal" /></Typography></a>
             <a href="#edu" className="no-underline">
                 <Typography color="white"> Education <i class="fas fa-laptop-code" /></Typography></a>

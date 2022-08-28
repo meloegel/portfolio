@@ -15,7 +15,7 @@ const Projects = () => {
     }
 
     return (
-        <div className='hvr-grow w-full text-center'>
+        <div className='hvr-grow w-full text-center' id="projects">
             <div className='m-auto text-center relative mt-6 bg-gray-500 rounded-3xl p-1.5 w-11/12'>
                 <h3>
                     <i class="fas fa-folder-open"></i> Projects <i class="fas fa-folder-open" />

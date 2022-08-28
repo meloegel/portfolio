@@ -4,7 +4,7 @@ import React from 'react'
 const Skills = () => {
 
     return (
-        <div className="w-full text-center mb-1.5">
+        <div className="w-full text-center mb-1.5" id="skills">
             <div className='hvr-grow relative bg-gray-500 p-1.5 rounded-3xl text-left mx-auto my-8 w-11/12'>
                 <h3 ><i class="fas fa-medal" /> Skills <i class="fas fa-medal" /></h3>
                 <div className="flex mb-8 flex-col md:flex-row">

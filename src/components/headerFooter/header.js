@@ -8,7 +8,7 @@ const Header = () => {
             <header>
                 <NavigationBar />
                 <div className="p-4">
-                    <h1>Mark Loegel</h1>
+                    <h1 className='pt-2'>Mark Loegel</h1>
                     <h2 className="p-4">Web Developer</h2>
                     <a href={require('../../Images/Mark Resume (2-10-21).pdf')} download>
                         <Button variant='contained'>Download Resume</Button>

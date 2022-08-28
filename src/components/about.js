@@ -3,7 +3,7 @@ import React from 'react'
 
 const About = () => {
     return (
-        <div className='w-full text-center mt-2'>
+        <div className='w-full text-center mt-2' id="aboutDiv">
             <p className='border-dashed border-2 border-white my-2'></p>
             <div className='hvr-grow mt-1 bg-gray-500 rounded-3xl w-11/12 m-auto' >
                 <div className="w-11/12 m-auto p-3">
