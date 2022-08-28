@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Header from './components/header'
+import Header from './components/headerFooter/header'
 import Projects from './components/projects/projects'
-import Footer from './components/footer'
+import Footer from './components/headerFooter/footer'
 import About from './components/about'
 import Skills from './components/skills'
 import Qualifications from './components/qualifications'
