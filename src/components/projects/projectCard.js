@@ -56,7 +56,7 @@ export default function ProjectCard({ cardHeaderTitle, cardHeaderSubHeader, imag
                         {cardContentBody}
                     </Typography>
                 </CardContent>
-                <CardActions classes={"h-full flex items-end"}>
+                <CardActions className={"h-full flex items-end"}>
                     <Tooltip
                         placement='left'
                         title='Links'
