@@ -29,7 +29,7 @@ const Qualifications = (key) => {
                     </div>
                     <div>
                         <h3><i class="fas fa-university" /> Previous Education: Oakland University <i class="fas fa-university" /></h3>
-                        <p>Studied Psychology with Focus in Child Development</p>
+                        <p>Studied Psychology</p>
                         <p>2008-2012</p>
                         <p>Division 1 Athlete in Swimming</p>
                         <p>4 year Conference Champions</p>
