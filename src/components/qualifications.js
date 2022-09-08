@@ -15,6 +15,7 @@ const Qualifications = (key) => {
                 <div className='flex justify-evenly flex-col md:flex-row'>
                     <div>
                         <h3><i class="fas fa-laptop-code" /> Education: Lambda School <i class="fas fa-laptop-code" /></h3>
+                        <p>* Lambda renamed to <span className="cursor-pointer underline" href="https://www.bloomtech.com/" alt="bloom tech">Bloom Institute of Technology</span> in 2022 *</p>
                         <p>March 2020 - Nov 2020</p>
                         <p>Participated in the Lambda Leadership program</p>
                         <p>Part of the Lambda X Endorsement program</p>
